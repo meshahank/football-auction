@@ -2,40 +2,25 @@
   {
     "id": 1,
     "name": "Marcus Stevens",
-    "stats": {
-      "runs": 1250,
-      "wickets": 12,
-      "avg": 42.5,
-      "sr": 145
-    },
+    "stats": { "goals": 25, "assists": 12, "passes": 1250, "dribbles": 145 },
     "basePrice": 50,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/1.jpg"
+    "imagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6YIdt-YyO5kwYCqly9MIp42PQlp9jPEqhNg&s"
   },
   {
     "id": 2,
     "name": "James Mitchell",
-    "stats": {
-      "runs": 980,
-      "wickets": 8,
-      "avg": 38.2,
-      "sr": 138
-    },
+    "stats": { "goals": 18, "assists": 8, "passes": 980, "dribbles": 138 },
     "basePrice": 45,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/2.jpg"
+    "imagePath": "/img/"
   },
   {
     "id": 3,
     "name": "David Thompson",
-    "stats": {
-      "runs": 1450,
-      "wickets": 15,
-      "avg": 45.3,
-      "sr": 152
-    },
+    "stats": { "goals": 28, "assists": 15, "passes": 1450, "dribbles": 152 },
     "basePrice": 60,
     "status": "available",
     "teamId": null,
@@ -44,12 +29,7 @@
   {
     "id": 4,
     "name": "Ryan Cooper",
-    "stats": {
-      "runs": 820,
-      "wickets": 22,
-      "avg": 28.5,
-      "sr": 95
-    },
+    "stats": { "goals": 12, "assists": 22, "passes": 820, "dribbles": 95 },
     "basePrice": 55,
     "status": "available",
     "teamId": null,
@@ -58,12 +38,7 @@
   {
     "id": 5,
     "name": "Alex Richardson",
-    "stats": {
-      "runs": 1100,
-      "wickets": 18,
-      "avg": 35.8,
-      "sr": 125
-    },
+    "stats": { "goals": 22, "assists": 18, "passes": 1100, "dribbles": 125 },
     "basePrice": 50,
     "status": "available",
     "teamId": null,
@@ -72,12 +47,7 @@
   {
     "id": 6,
     "name": "Chris Anderson",
-    "stats": {
-      "runs": 950,
-      "wickets": 14,
-      "avg": 32.1,
-      "sr": 140
-    },
+    "stats": { "goals": 16, "assists": 14, "passes": 950, "dribbles": 140 },
     "basePrice": 42,
     "status": "available",
     "teamId": null,
@@ -86,12 +56,7 @@
   {
     "id": 7,
     "name": "Luke Hayes",
-    "stats": {
-      "runs": 1320,
-      "wickets": 11,
-      "avg": 44,
-      "sr": 148
-    },
+    "stats": { "goals": 26, "assists": 11, "passes": 1320, "dribbles": 148 },
     "basePrice": 58,
     "status": "available",
     "teamId": null,
@@ -100,12 +65,7 @@
   {
     "id": 8,
     "name": "Nathan Brooks",
-    "stats": {
-      "runs": 760,
-      "wickets": 25,
-      "avg": 26.3,
-      "sr": 92
-    },
+    "stats": { "goals": 14, "assists": 25, "passes": 760, "dribbles": 92 },
     "basePrice": 52,
     "status": "available",
     "teamId": null,
@@ -114,12 +74,7 @@
   {
     "id": 9,
     "name": "Peter Daniels",
-    "stats": {
-      "runs": 1180,
-      "wickets": 13,
-      "avg": 40.5,
-      "sr": 142
-    },
+    "stats": { "goals": 23, "assists": 13, "passes": 1180, "dribbles": 142 },
     "basePrice": 48,
     "status": "available",
     "teamId": null,
@@ -128,12 +83,7 @@
   {
     "id": 10,
     "name": "Simon Taylor",
-    "stats": {
-      "runs": 1020,
-      "wickets": 16,
-      "avg": 36.4,
-      "sr": 135
-    },
+    "stats": { "goals": 19, "assists": 16, "passes": 1020, "dribbles": 135 },
     "basePrice": 46,
     "status": "available",
     "teamId": null,
@@ -142,12 +92,7 @@
   {
     "id": 11,
     "name": "Oliver Wilson",
-    "stats": {
-      "runs": 1380,
-      "wickets": 9,
-      "avg": 46.8,
-      "sr": 155
-    },
+    "stats": { "goals": 30, "assists": 9, "passes": 1380, "dribbles": 155 },
     "basePrice": 62,
     "status": "available",
     "teamId": null,
@@ -156,12 +101,7 @@
   {
     "id": 12,
     "name": "Ben Patterson",
-    "stats": {
-      "runs": 880,
-      "wickets": 20,
-      "avg": 30.2,
-      "sr": 105
-    },
+    "stats": { "goals": 15, "assists": 20, "passes": 880, "dribbles": 105 },
     "basePrice": 44,
     "status": "available",
     "teamId": null,
@@ -170,12 +110,7 @@
   {
     "id": 13,
     "name": "Tom Clarke",
-    "stats": {
-      "runs": 1250,
-      "wickets": 7,
-      "avg": 41.2,
-      "sr": 150
-    },
+    "stats": { "goals": 24, "assists": 7, "passes": 1250, "dribbles": 150 },
     "basePrice": 56,
     "status": "sold",
     "teamId": 1,
@@ -184,12 +119,7 @@
   {
     "id": 14,
     "name": "John Roberts",
-    "stats": {
-      "runs": 950,
-      "wickets": 19,
-      "avg": 33.5,
-      "sr": 110
-    },
+    "stats": { "goals": 17, "assists": 19, "passes": 950, "dribbles": 110 },
     "basePrice": 49,
     "status": "available",
     "teamId": null,
@@ -198,12 +128,7 @@
   {
     "id": 15,
     "name": "Michael Foster",
-    "stats": {
-      "runs": 1140,
-      "wickets": 12,
-      "avg": 38.9,
-      "sr": 132
-    },
+    "stats": { "goals": 20, "assists": 12, "passes": 1140, "dribbles": 132 },
     "basePrice": 51,
     "status": "unsold",
     "teamId": null,
@@ -212,12 +137,7 @@
   {
     "id": 16,
     "name": "Kevin Murphy",
-    "stats": {
-      "runs": 820,
-      "wickets": 23,
-      "avg": 27.8,
-      "sr": 98
-    },
+    "stats": { "goals": 13, "assists": 23, "passes": 820, "dribbles": 98 },
     "basePrice": 47,
     "status": "available",
     "teamId": null,
@@ -226,12 +146,7 @@
   {
     "id": 17,
     "name": "William Brown",
-    "stats": {
-      "runs": 1300,
-      "wickets": 10,
-      "avg": 43.5,
-      "sr": 148
-    },
+    "stats": { "goals": 27, "assists": 10, "passes": 1300, "dribbles": 148 },
     "basePrice": 59,
     "status": "available",
     "teamId": null,
@@ -240,12 +155,7 @@
   {
     "id": 18,
     "name": "Daniel White",
-    "stats": {
-      "runs": 1050,
-      "wickets": 17,
-      "avg": 37.2,
-      "sr": 128
-    },
+    "stats": { "goals": 21, "assists": 17, "passes": 1050, "dribbles": 128 },
     "basePrice": 50,
     "status": "available",
     "teamId": null,
@@ -254,12 +164,7 @@
   {
     "id": 19,
     "name": "Anthony Collins",
-    "stats": {
-      "runs": 920,
-      "wickets": 21,
-      "avg": 31.8,
-      "sr": 108
-    },
+    "stats": { "goals": 18, "assists": 21, "passes": 920, "dribbles": 108 },
     "basePrice": 45,
     "status": "available",
     "teamId": null,
@@ -268,12 +173,7 @@
   {
     "id": 20,
     "name": "George Martinez",
-    "stats": {
-      "runs": 1190,
-      "wickets": 14,
-      "avg": 39.8,
-      "sr": 139
-    },
+    "stats": { "goals": 24, "assists": 14, "passes": 1190, "dribbles": 139 },
     "basePrice": 53,
     "status": "available",
     "teamId": null,
@@ -282,12 +182,7 @@
   {
     "id": 21,
     "name": "Henry Chapman",
-    "stats": {
-      "runs": 850,
-      "wickets": 24,
-      "avg": 28.9,
-      "sr": 100
-    },
+    "stats": { "goals": 14, "assists": 24, "passes": 850, "dribbles": 100 },
     "basePrice": 43,
     "status": "available",
     "teamId": null,
@@ -296,12 +191,7 @@
   {
     "id": 22,
     "name": "Paul Sanders",
-    "stats": {
-      "runs": 1260,
-      "wickets": 8,
-      "avg": 42,
-      "sr": 151
-    },
+    "stats": { "goals": 25, "assists": 8, "passes": 1260, "dribbles": 151 },
     "basePrice": 57,
     "status": "available",
     "teamId": null,
@@ -310,12 +200,7 @@
   {
     "id": 23,
     "name": "Robert Lee",
-    "stats": {
-      "runs": 1100,
-      "wickets": 15,
-      "avg": 36.7,
-      "sr": 130
-    },
+    "stats": { "goals": 22, "assists": 15, "passes": 1100, "dribbles": 130 },
     "basePrice": 52,
     "status": "sold",
     "teamId": 6,
@@ -324,12 +209,7 @@
   {
     "id": 24,
     "name": "Edward Bell",
-    "stats": {
-      "runs": 980,
-      "wickets": 18,
-      "avg": 34.3,
-      "sr": 122
-    },
+    "stats": { "goals": 19, "assists": 18, "passes": 980, "dribbles": 122 },
     "basePrice": 48,
     "status": "available",
     "teamId": null,
@@ -338,12 +218,7 @@
   {
     "id": 25,
     "name": "Thomas Hughes",
-    "stats": {
-      "runs": 1330,
-      "wickets": 11,
-      "avg": 44.3,
-      "sr": 146
-    },
+    "stats": { "goals": 28, "assists": 11, "passes": 1330, "dribbles": 146 },
     "basePrice": 61,
     "status": "available",
     "teamId": null,
@@ -352,12 +227,7 @@
   {
     "id": 26,
     "name": "Charles Grant",
-    "stats": {
-      "runs": 890,
-      "wickets": 26,
-      "avg": 29.5,
-      "sr": 96
-    },
+    "stats": { "goals": 13, "assists": 26, "passes": 890, "dribbles": 96 },
     "basePrice": 46,
     "status": "available",
     "teamId": null,
@@ -366,12 +236,7 @@
   {
     "id": 27,
     "name": "Andrew Watson",
-    "stats": {
-      "runs": 1210,
-      "wickets": 12,
-      "avg": 40.3,
-      "sr": 144
-    },
+    "stats": { "goals": 23, "assists": 12, "passes": 1210, "dribbles": 144 },
     "basePrice": 54,
     "status": "available",
     "teamId": null,
@@ -380,12 +245,7 @@
   {
     "id": 28,
     "name": "Richard Harper",
-    "stats": {
-      "runs": 1050,
-      "wickets": 19,
-      "avg": 36.8,
-      "sr": 126
-    },
+    "stats": { "goals": 21, "assists": 19, "passes": 1050, "dribbles": 126 },
     "basePrice": 49,
     "status": "available",
     "teamId": null,
@@ -394,12 +254,7 @@
   {
     "id": 29,
     "name": "Frederick Price",
-    "stats": {
-      "runs": 920,
-      "wickets": 20,
-      "avg": 32.5,
-      "sr": 112
-    },
+    "stats": { "goals": 18, "assists": 20, "passes": 920, "dribbles": 112 },
     "basePrice": 47,
     "status": "available",
     "teamId": null,
@@ -408,12 +263,7 @@
   {
     "id": 30,
     "name": "Patrick Ellis",
-    "stats": {
-      "runs": 1280,
-      "wickets": 9,
-      "avg": 42.7,
-      "sr": 152
-    },
+    "stats": { "goals": 26, "assists": 9, "passes": 1280, "dribbles": 152 },
     "basePrice": 58,
     "status": "available",
     "teamId": null,
@@ -422,12 +272,7 @@
   {
     "id": 31,
     "name": "Samuel Hunt",
-    "stats": {
-      "runs": 810,
-      "wickets": 21,
-      "avg": 27.2,
-      "sr": 101
-    },
+    "stats": { "goals": 12, "assists": 21, "passes": 810, "dribbles": 101 },
     "basePrice": 44,
     "status": "available",
     "teamId": null,
@@ -436,12 +281,7 @@
   {
     "id": 32,
     "name": "Vincent Ray",
-    "stats": {
-      "runs": 1170,
-      "wickets": 16,
-      "avg": 39.2,
-      "sr": 136
-    },
+    "stats": { "goals": 22, "assists": 16, "passes": 1170, "dribbles": 136 },
     "basePrice": 51,
     "status": "available",
     "teamId": null,
@@ -450,12 +290,7 @@
   {
     "id": 33,
     "name": "Walter Scott",
-    "stats": {
-      "runs": 1380,
-      "wickets": 10,
-      "avg": 46,
-      "sr": 149
-    },
+    "stats": { "goals": 29, "assists": 10, "passes": 1380, "dribbles": 149 },
     "basePrice": 63,
     "status": "available",
     "teamId": null,
@@ -464,12 +299,7 @@
   {
     "id": 34,
     "name": "Gerald Nichols",
-    "stats": {
-      "runs": 950,
-      "wickets": 22,
-      "avg": 33.8,
-      "sr": 114
-    },
+    "stats": { "goals": 17, "assists": 22, "passes": 950, "dribbles": 114 },
     "basePrice": 50,
     "status": "available",
     "teamId": null,
@@ -478,12 +308,7 @@
   {
     "id": 35,
     "name": "Bernard Murray",
-    "stats": {
-      "runs": 1120,
-      "wickets": 13,
-      "avg": 37.3,
-      "sr": 129
-    },
+    "stats": { "goals": 20, "assists": 13, "passes": 1120, "dribbles": 129 },
     "basePrice": 52,
     "status": "available",
     "teamId": null,
@@ -492,12 +317,7 @@
   {
     "id": 36,
     "name": "Lawrence Cox",
-    "stats": {
-      "runs": 880,
-      "wickets": 25,
-      "avg": 28.6,
-      "sr": 102
-    },
+    "stats": { "goals": 15, "assists": 25, "passes": 880, "dribbles": 102 },
     "basePrice": 45,
     "status": "available",
     "teamId": null,
@@ -506,12 +326,7 @@
   {
     "id": 37,
     "name": "Roy Freeman",
-    "stats": {
-      "runs": 1240,
-      "wickets": 14,
-      "avg": 41.3,
-      "sr": 141
-    },
+    "stats": { "goals": 25, "assists": 14, "passes": 1240, "dribbles": 141 },
     "basePrice": 55,
     "status": "available",
     "teamId": null,
@@ -520,12 +335,7 @@
   {
     "id": 38,
     "name": "Philip Wells",
-    "stats": {
-      "runs": 1000,
-      "wickets": 17,
-      "avg": 35.2,
-      "sr": 124
-    },
+    "stats": { "goals": 20, "assists": 17, "passes": 1000, "dribbles": 124 },
     "basePrice": 48,
     "status": "available",
     "teamId": null,
@@ -534,12 +344,7 @@
   {
     "id": 39,
     "name": "Ralph Simpson",
-    "stats": {
-      "runs": 920,
-      "wickets": 19,
-      "avg": 31.4,
-      "sr": 118
-    },
+    "stats": { "goals": 18, "assists": 19, "passes": 920, "dribbles": 118 },
     "basePrice": 46,
     "status": "available",
     "teamId": null,
@@ -548,12 +353,7 @@
   {
     "id": 40,
     "name": "Ernest Holmes",
-    "stats": {
-      "runs": 1310,
-      "wickets": 11,
-      "avg": 43.7,
-      "sr": 147
-    },
+    "stats": { "goals": 27, "assists": 11, "passes": 1310, "dribbles": 147 },
     "basePrice": 60,
     "status": "available",
     "teamId": null,
@@ -562,12 +362,7 @@
   {
     "id": 41,
     "name": "Arthur Carter",
-    "stats": {
-      "runs": 840,
-      "wickets": 23,
-      "avg": 29,
-      "sr": 104
-    },
+    "stats": { "goals": 14, "assists": 23, "passes": 840, "dribbles": 104 },
     "basePrice": 47,
     "status": "available",
     "teamId": null,
@@ -576,12 +371,7 @@
   {
     "id": 42,
     "name": "Stanley Hart",
-    "stats": {
-      "runs": 1160,
-      "wickets": 15,
-      "avg": 38.7,
-      "sr": 133
-    },
+    "stats": { "goals": 22, "assists": 15, "passes": 1160, "dribbles": 133 },
     "basePrice": 51,
     "status": "unsold",
     "teamId": null,
@@ -590,12 +380,7 @@
   {
     "id": 43,
     "name": "Cecil Duncan",
-    "stats": {
-      "runs": 1420,
-      "wickets": 8,
-      "avg": 47.3,
-      "sr": 156
-    },
+    "stats": { "goals": 29, "assists": 8, "passes": 1420, "dribbles": 156 },
     "basePrice": 64,
     "status": "available",
     "teamId": null,
@@ -604,12 +389,7 @@
   {
     "id": 44,
     "name": "Oscar Shaw",
-    "stats": {
-      "runs": 980,
-      "wickets": 20,
-      "avg": 34.5,
-      "sr": 116
-    },
+    "stats": { "goals": 19, "assists": 20, "passes": 980, "dribbles": 116 },
     "basePrice": 49,
     "status": "unsold",
     "teamId": null,
@@ -618,12 +398,7 @@
   {
     "id": 45,
     "name": "Clarence Perry",
-    "stats": {
-      "runs": 1090,
-      "wickets": 16,
-      "avg": 36.3,
-      "sr": 127
-    },
+    "stats": { "goals": 21, "assists": 16, "passes": 1090, "dribbles": 127 },
     "basePrice": 50,
     "status": "sold",
     "teamId": 1,
@@ -632,12 +407,7 @@
   {
     "id": 46,
     "name": "Martin Powell",
-    "stats": {
-      "runs": 860,
-      "wickets": 24,
-      "avg": 28.2,
-      "sr": 99
-    },
+    "stats": { "goals": 14, "assists": 24, "passes": 860, "dribbles": 99 },
     "basePrice": 44,
     "status": "available",
     "teamId": null,
@@ -646,12 +416,7 @@
   {
     "id": 47,
     "name": "Norman Drew",
-    "stats": {
-      "runs": 1200,
-      "wickets": 13,
-      "avg": 40,
-      "sr": 137
-    },
+    "stats": { "goals": 23, "assists": 13, "passes": 1200, "dribbles": 137 },
     "basePrice": 53,
     "status": "available",
     "teamId": null,
@@ -660,12 +425,7 @@
   {
     "id": 48,
     "name": "Horace Marsh",
-    "stats": {
-      "runs": 1050,
-      "wickets": 18,
-      "avg": 36.5,
-      "sr": 128
-    },
+    "stats": { "goals": 21, "assists": 18, "passes": 1050, "dribbles": 128 },
     "basePrice": 51,
     "status": "available",
     "teamId": null,
@@ -674,12 +434,7 @@
   {
     "id": 49,
     "name": "Everett Webb",
-    "stats": {
-      "runs": 940,
-      "wickets": 21,
-      "avg": 32.8,
-      "sr": 111
-    },
+    "stats": { "goals": 16, "assists": 21, "passes": 940, "dribbles": 111 },
     "basePrice": 48,
     "status": "available",
     "teamId": null,
@@ -688,12 +443,7 @@
   {
     "id": 50,
     "name": "Gordon Bailey",
-    "stats": {
-      "runs": 1270,
-      "wickets": 10,
-      "avg": 42.3,
-      "sr": 150
-    },
+    "stats": { "goals": 25, "assists": 10, "passes": 1270, "dribbles": 150 },
     "basePrice": 57,
     "status": "in-auction",
     "teamId": null,
@@ -702,12 +452,7 @@
   {
     "id": 51,
     "name": "Aubrey Rivers",
-    "stats": {
-      "runs": 820,
-      "wickets": 22,
-      "avg": 27.5,
-      "sr": 103
-    },
+    "stats": { "goals": 13, "assists": 22, "passes": 820, "dribbles": 103 },
     "basePrice": 45,
     "status": "available",
     "teamId": null,
@@ -716,12 +461,7 @@
   {
     "id": 52,
     "name": "Wesley Moon",
-    "stats": {
-      "runs": 1140,
-      "wickets": 14,
-      "avg": 38,
-      "sr": 131
-    },
+    "stats": { "goals": 20, "assists": 14, "passes": 1140, "dribbles": 131 },
     "basePrice": 52,
     "status": "available",
     "teamId": null,
@@ -730,12 +470,7 @@
   {
     "id": 53,
     "name": "Irving Knight",
-    "stats": {
-      "runs": 1380,
-      "wickets": 12,
-      "avg": 45.5,
-      "sr": 153
-    },
+    "stats": { "goals": 28, "assists": 12, "passes": 1380, "dribbles": 153 },
     "basePrice": 62,
     "status": "sold",
     "teamId": 3,
@@ -744,12 +479,7 @@
   {
     "id": 54,
     "name": "Virgil Bishop",
-    "stats": {
-      "runs": 950,
-      "wickets": 18,
-      "avg": 33.2,
-      "sr": 119
-    },
+    "stats": { "goals": 17, "assists": 18, "passes": 950, "dribbles": 119 },
     "basePrice": 49,
     "status": "available",
     "teamId": null,
@@ -758,12 +488,7 @@
   {
     "id": 55,
     "name": "Wade Mills",
-    "stats": {
-      "runs": 1100,
-      "wickets": 15,
-      "avg": 36.7,
-      "sr": 129
-    },
+    "stats": { "goals": 22, "assists": 15, "passes": 1100, "dribbles": 129 },
     "basePrice": 52,
     "status": "available",
     "teamId": null,
@@ -772,12 +497,7 @@
   {
     "id": 56,
     "name": "Victor Stone",
-    "stats": {
-      "runs": 1320,
-      "wickets": 9,
-      "avg": 44,
-      "sr": 148
-    },
+    "stats": { "goals": 26, "assists": 9, "passes": 1320, "dribbles": 148 },
     "basePrice": 59,
     "status": "available",
     "teamId": null,

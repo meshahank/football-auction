@@ -11,7 +11,22 @@ import UnsoldList from './pages/UnsoldList';
 import AdminPanel from './pages/AdminPanel';
 import Header from './components/Header';
 
-const SOCKET_URL = process.env.REACT_APP_SOCKET_URL || 'http://localhost:5000';
+// Determine socket URL based on environment
+const getSocketURL = () => {
+  if (process.env.REACT_APP_SOCKET_URL) {
+    return process.env.REACT_APP_SOCKET_URL;
+  }
+  
+  // In production (Vercel), use the current origin
+  if (process.env.NODE_ENV === 'production') {
+    return window.location.origin;
+  }
+  
+  // In development, use localhost
+  return 'http://localhost:5000';
+};
+
+const SOCKET_URL = getSocketURL();
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);

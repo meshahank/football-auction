@@ -7,15 +7,38 @@ const path = require('path');
 
 const app = express();
 const server = http.createServer(app);
+// Determine allowed origins based on environment
+const getAllowedOrigins = () => {
+  const baseOrigins = ['http://localhost:3000', 'http://localhost:3001'];
+  
+  // Add Vercel production URL if available
+  if (process.env.VERCEL_URL) {
+    baseOrigins.push(`https://${process.env.VERCEL_URL}`);
+    baseOrigins.push(`http://${process.env.VERCEL_URL}`);
+  }
+  
+  // Add custom production domain if available
+  if (process.env.PRODUCTION_URL) {
+    baseOrigins.push(process.env.PRODUCTION_URL);
+  }
+  
+  return baseOrigins;
+};
+
 const io = socketIo(server, {
   cors: {
-    origin: ['http://localhost:3000', 'http://localhost:3001'],
-    methods: ['GET', 'POST']
-  }
+    origin: getAllowedOrigins(),
+    methods: ['GET', 'POST'],
+    credentials: true
+  },
+  transports: ['websocket', 'polling']
 });
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: getAllowedOrigins(),
+  credentials: true
+}));
 app.use(express.json());
 
 // Data paths
@@ -252,6 +275,12 @@ io.on('connection', (socket) => {
 
 // Start server
 const PORT = process.env.PORT || 5000;
-server.listen(PORT, () => {
-  console.log(`AFC Auction Server running on port ${PORT}`);
-});
+
+if (require.main === module) {
+  server.listen(PORT, () => {
+    console.log(`AFC Auction Server running on port ${PORT}`);
+  });
+}
+
+// Export for Vercel serverless
+module.exports = server;

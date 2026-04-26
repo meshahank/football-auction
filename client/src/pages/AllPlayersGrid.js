@@ -103,7 +103,7 @@ function AllPlayersGrid({ players }) {
                   alt={player.name}
                   onError={(e) =>
                     e.target.src =
-                      'https://via.placeholder.com/200?text=Player'
+                      'https://via.placeholder.com/200?text=Player' 
                   }
                 />
                 <div className={`status-badge ${player.status}`}>
@@ -116,20 +116,20 @@ function AllPlayersGrid({ players }) {
 
                 <div className="stats-mini">
                   <div className="stat-mini">
-                    <span className="label">Runs</span>
-                    <span className="value">{player.stats.runs}</span>
+                    <span className="label">Goals</span>
+                    <span className="value">{player.stats.goals}</span>
                   </div>
                   <div className="stat-mini">
-                    <span className="label">Wickets</span>
-                    <span className="value">{player.stats.wickets}</span>
+                    <span className="label">Assists</span>
+                    <span className="value">{player.stats.assists}</span>
                   </div>
                   <div className="stat-mini">
-                    <span className="label">Avg</span>
-                    <span className="value">{player.stats.avg}</span>
+                    <span className="label">Passes</span>
+                    <span className="value">{player.stats.passes}</span>
                   </div>
                   <div className="stat-mini">
-                    <span className="label">SR</span>
-                    <span className="value">{player.stats.sr}</span>
+                    <span className="label">Dribbles</span>
+                    <span className="value">{player.stats.dribbles}</span>
                   </div>
                 </div>
 

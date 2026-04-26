@@ -21,10 +21,10 @@ function UnsoldList({ players }) {
             <thead>
               <tr>
                 <th>Player</th>
-                <th>Runs</th>
-                <th>Wickets</th>
-                <th>Average</th>
-                <th>Strike Rate</th>
+                <th>Goals</th>
+                <th>Assists</th>
+                <th>Passes</th>
+                <th>Dribbles</th>
                 <th>Base Price</th>
               </tr>
             </thead>
@@ -44,10 +44,10 @@ function UnsoldList({ players }) {
                       <span className="player-name">{player.name}</span>
                     </div>
                   </td>
-                  <td>{player.stats.runs}</td>
-                  <td>{player.stats.wickets}</td>
-                  <td>{player.stats.avg}</td>
-                  <td>{player.stats.sr}</td>
+                  <td>{player.stats.goals}</td>
+                  <td>{player.stats.assists}</td>
+                  <td>{player.stats.passes}</td>
+                  <td>{player.stats.dribbles}</td>
                   <td className="base-price">₹{player.basePrice} CR</td>
                 </tr>
               ))}

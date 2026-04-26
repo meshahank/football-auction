@@ -40,20 +40,20 @@ function AuctionPage({ currentPlayer, socket }) {
 
               <div className="stats-grid">
                 <div className="stat-item">
-                  <span className="stat-label">Runs</span>
-                  <span className="stat-value">{player.stats.runs}</span>
+                  <span className="stat-label">Goals</span>
+                  <span className="stat-value">{player.stats.goals}</span>
                 </div>
                 <div className="stat-item">
-                  <span className="stat-label">Wickets</span>
-                  <span className="stat-value">{player.stats.wickets}</span>
+                  <span className="stat-label">Assists</span>
+                  <span className="stat-value">{player.stats.assists}</span>
                 </div>
                 <div className="stat-item">
-                  <span className="stat-label">Average</span>
-                  <span className="stat-value">{player.stats.avg}</span>
+                  <span className="stat-label">Passes</span>
+                  <span className="stat-value">{player.stats.passes}</span>
                 </div>
                 <div className="stat-item">
-                  <span className="stat-label">Strike Rate</span>
-                  <span className="stat-value">{player.stats.sr}</span>
+                  <span className="stat-label">Dribbles</span>
+                  <span className="stat-value">{player.stats.dribbles}</span>
                 </div>
               </div>
 
