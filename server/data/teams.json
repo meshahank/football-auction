@@ -1,0 +1,81 @@
+[
+  {
+    "id": 1,
+    "name": "Phoenix Rising",
+    "logo": "/logos/phoenix.png",
+    "totalBudget": 1000,
+    "moneySpent": 195,
+    "budgetRemaining": 805,
+    "players": [
+      13,
+      45
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Thunder Knights",
+    "logo": "/logos/thunder.png",
+    "totalBudget": 1000,
+    "moneySpent": 0,
+    "budgetRemaining": 1000,
+    "players": []
+  },
+  {
+    "id": 3,
+    "name": "Falcon Elite",
+    "logo": "/logos/falcon.png",
+    "totalBudget": 1000,
+    "moneySpent": 100,
+    "budgetRemaining": 900,
+    "players": [
+      53
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Titan Force",
+    "logo": "/logos/titan.png",
+    "totalBudget": 1000,
+    "moneySpent": 0,
+    "budgetRemaining": 1000,
+    "players": []
+  },
+  {
+    "id": 5,
+    "name": "Griffin United",
+    "logo": "/logos/griffin.png",
+    "totalBudget": 1000,
+    "moneySpent": 0,
+    "budgetRemaining": 1000,
+    "players": []
+  },
+  {
+    "id": 6,
+    "name": "Dragon Kings",
+    "logo": "/logos/dragon.png",
+    "totalBudget": 1000,
+    "moneySpent": 45,
+    "budgetRemaining": 955,
+    "players": [
+      23
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Eagle Strikers",
+    "logo": "/logos/eagle.png",
+    "totalBudget": 1000,
+    "moneySpent": 0,
+    "budgetRemaining": 1000,
+    "players": []
+  },
+  {
+    "id": 8,
+    "name": "Lion Warriors",
+    "logo": "/logos/lion.png",
+    "totalBudget": 1000,
+    "moneySpent": 0,
+    "budgetRemaining": 1000,
+    "players": []
+  }
+]
