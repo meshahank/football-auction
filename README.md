@@ -102,10 +102,10 @@ auction/
   "id": 1,
   "name": "Marcus Stevens",
   "stats": {
-    "runs": 1250,
-    "wickets": 12,
-    "avg": 42.5,
-    "sr": 145
+    "goals": 25,
+    "assists": 12,
+    "passes": 1250,
+    "dribbles": 145
   },
   "basePrice": 50,
   "status": "available",

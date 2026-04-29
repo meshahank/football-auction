@@ -1,81 +1,82 @@
 [
   {
     "id": 1,
-    "name": "Phoenix Rising",
-    "logo": "/logos/phoenix.png",
-    "totalBudget": 1000,
-    "moneySpent": 195,
-    "budgetRemaining": 805,
-    "players": [
-      13,
-      45
-    ]
+    "name": "AC Milan",
+    "manager": "Amaan AK",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/250px-Logo_of_AC_Milan.svg.png",
+    "totalBudget": 100,
+    "moneySpent": 0,
+    "budgetRemaining": 100,
+    "players": []
   },
   {
     "id": 2,
-    "name": "Thunder Knights",
-    "logo": "/logos/thunder.png",
-    "totalBudget": 1000,
+    "name": "Liverpool FC",
+    "manager": "Arshad",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/250px-Liverpool_FC.svg.png",
+    "totalBudget": 100,
     "moneySpent": 0,
-    "budgetRemaining": 1000,
+    "budgetRemaining": 100,
     "players": []
   },
   {
     "id": 3,
-    "name": "Falcon Elite",
-    "logo": "/logos/falcon.png",
-    "totalBudget": 1000,
-    "moneySpent": 100,
-    "budgetRemaining": 900,
-    "players": [
-      53
-    ]
+    "name": "Real Madrid",
+    "manager": "Amish",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/250px-Real_Madrid_CF.svg.png",
+    "totalBudget": 100,
+    "moneySpent": 0,
+    "budgetRemaining": 100,
+    "players": []
   },
   {
     "id": 4,
-    "name": "Titan Force",
-    "logo": "/logos/titan.png",
-    "totalBudget": 1000,
+    "name": "Manchester City",
+    "manager": "Sabiq P",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/250px-Manchester_City_FC_badge.svg.png",
+    "totalBudget": 100,
     "moneySpent": 0,
-    "budgetRemaining": 1000,
+    "budgetRemaining": 100,
     "players": []
   },
   {
     "id": 5,
-    "name": "Griffin United",
-    "logo": "/logos/griffin.png",
-    "totalBudget": 1000,
+    "name": "FC Barcelona",
+    "manager": "Nishal",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/250px-FC_Barcelona_%28crest%29.svg.png",
+    "totalBudget": 100,
     "moneySpent": 0,
-    "budgetRemaining": 1000,
+    "budgetRemaining": 100,
     "players": []
   },
   {
     "id": 6,
-    "name": "Dragon Kings",
-    "logo": "/logos/dragon.png",
-    "totalBudget": 1000,
-    "moneySpent": 45,
-    "budgetRemaining": 955,
-    "players": [
-      23
-    ]
+    "name": "Paris Saint-Germain",
+    "manager": "Faheem",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/250px-Paris_Saint-Germain_F.C..svg.png",
+    "totalBudget": 100,
+    "moneySpent": 0,
+    "budgetRemaining": 100,
+    "players": []
   },
   {
     "id": 7,
-    "name": "Eagle Strikers",
-    "logo": "/logos/eagle.png",
-    "totalBudget": 1000,
+    "name": "Bayern Munich",
+    "manager": "Sahl SV",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg/250px-FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg.png",
+    "totalBudget": 100,
     "moneySpent": 0,
-    "budgetRemaining": 1000,
+    "budgetRemaining": 100,
     "players": []
   },
   {
     "id": 8,
-    "name": "Lion Warriors",
-    "logo": "/logos/lion.png",
-    "totalBudget": 1000,
+    "name": "Manchester United",
+    "manager": "Adil NP",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/250px-Manchester_United_FC_crest.svg.png",
+    "totalBudget": 100,
     "moneySpent": 0,
-    "budgetRemaining": 1000,
+    "budgetRemaining": 100,
     "players": []
   }
 ]

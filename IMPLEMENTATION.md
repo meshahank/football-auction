@@ -185,7 +185,7 @@ If no bids: Click "⛔ Mark Unsold"
 ```
 Each player has:
 - ID, Name
-- Stats: Runs, Wickets, Average, Strike Rate
+- Stats: Goals, Assists, Passes, Dribbles
 - Base Price (in ₹ Crores)
 - Status: available | in-auction | sold | unsold
 - Team ID (when sold)

@@ -33,7 +33,7 @@ auction/
 │       │
 │       └── 📊 data/
 │           ├── players.json ................ 56 Players
-│           │                              ✓ Stats: runs, wickets, avg, SR
+│           │                              ✓ Stats: goals, assists, passes, dribbles
 │           │                              ✓ Pricing & status tracking
 │           │                              ✓ Team assignment
 │           │
@@ -157,7 +157,7 @@ LOGIN:
 ═══════════════════════════════════════════════════════════════════════════
 
 PLAYERS: 56
-  • Names, stats (runs, wickets, avg, SR)
+  • Names, stats (goals, assists, passes, dribbles)
   • Base prices (40-65 ₹ CR)
   • Status tracking (available → sold/unsold)
   • Team assignment on sale
@@ -310,7 +310,7 @@ DATA METRICS:
   Total Teams ................... 8
   Budget Per Team ............... 1000 ₹ CR
   Total Budget .................. 8000 ₹ CR
-  Player Stats Fields ........... 4 (runs, wickets, avg, SR)
+  Player Stats Fields ........... 4 (goals, assists, passes, dribbles)
 
 FILE BREAKDOWN:
   JavaScript Files .............. 16

@@ -38,25 +38,6 @@ function AuctionPage({ currentPlayer, socket }) {
             <div className="player-details">
               <h2 className="player-name">{player.name}</h2>
 
-              <div className="stats-grid">
-                <div className="stat-item">
-                  <span className="stat-label">Goals</span>
-                  <span className="stat-value">{player.stats.goals}</span>
-                </div>
-                <div className="stat-item">
-                  <span className="stat-label">Assists</span>
-                  <span className="stat-value">{player.stats.assists}</span>
-                </div>
-                <div className="stat-item">
-                  <span className="stat-label">Passes</span>
-                  <span className="stat-value">{player.stats.passes}</span>
-                </div>
-                <div className="stat-item">
-                  <span className="stat-label">Dribbles</span>
-                  <span className="stat-value">{player.stats.dribbles}</span>
-                </div>
-              </div>
-
               <div className="base-price-box">
                 <span className="label">Base Price</span>
                 <span className="price">₹{player.basePrice} CR</span>

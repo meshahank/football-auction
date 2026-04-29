@@ -1,13 +1,18 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './TeamDashboard.css';
 
 function TeamDashboard({ teams }) {
-  const getTotalPlayers    = (t) => t.players ? t.players.length : 0;
-  const getBudgetUsagePct  = (t) => Math.round((t.moneySpent / t.totalBudget) * 100);
+  const navigate = useNavigate();
 
-  const totalSold  = teams.reduce((s, t) => s + (t.players ? t.players.length : 0), 0);
+  const getTotalPlayers = (t) => t.players ? t.players.length : 0;
+  const totalSold = teams.reduce((s, t) => s + (t.players ? t.players.length : 0), 0);
   const totalSpent = teams.reduce((s, t) => s + t.moneySpent, 0);
-  const totalLeft  = teams.reduce((s, t) => s + t.budgetRemaining, 0);
+  const totalLeft = teams.reduce((s, t) => s + t.budgetRemaining, 0);
+
+  const handleTeamClick = (teamId) => {
+    navigate(`/teams/${teamId}`);
+  };
 
   return (
     <div className="team-dashboard">
@@ -33,50 +38,24 @@ function TeamDashboard({ teams }) {
         </div>
       </div>
 
-      {/* Team cards */}
-      <div className="teams-container">
+      {/* Team cards - simplified view */}
+      <div className="teams-grid">
         {teams.map(team => (
-          <div key={team.id} className="team-card">
-            <div className="team-header">
-              <img
-                src={team.logo || 'https://via.placeholder.com/48'}
-                alt={team.name}
-                className="team-logo"
-                onError={(e) => e.target.src = 'https://via.placeholder.com/48'}
-              />
-              <h2 className="team-name">{team.name}</h2>
-            </div>
-
-            <div className="budget-section">
-              <div className="budget-stat">
-                <span className="stat-label">Budget</span>
-                <span className="stat-value">₹{team.totalBudget} CR</span>
-              </div>
-              <div className="budget-stat">
-                <span className="stat-label">Spent</span>
-                <span className="stat-value spent">₹{team.moneySpent} CR</span>
-              </div>
-              <div className="budget-stat">
-                <span className="stat-label">Left</span>
-                <span className="stat-value remaining">₹{team.budgetRemaining} CR</span>
-              </div>
-            </div>
-
-            <div className="budget-bar-container">
-              <div className="budget-bar">
-                <div
-                  className="budget-filled"
-                  style={{ width: `${getBudgetUsagePct(team)}%` }}
-                />
-              </div>
-              <span className="budget-percent">{getBudgetUsagePct(team)}% used</span>
-            </div>
-
-            <div className="players-info">
-              <div className="players-count">
-                <span className="count-label">Players Acquired</span>
-                <span className="count-value">{getTotalPlayers(team)}</span>
-              </div>
+          <div
+            key={team.id}
+            className="team-card-simplified"
+            onClick={() => handleTeamClick(team.id)}
+          >
+            <img
+              src={team.logo || 'https://via.placeholder.com/120'}
+              alt={team.name}
+              className="team-card-logo"
+              onError={(e) => e.target.src = 'https://via.placeholder.com/120'}
+            />
+            <div className="team-card-info">
+              <h3 className="team-card-name">{team.name}</h3>
+              <p className="team-card-manager">Manager: {team.manager || 'N/A'}</p>
+              <p className="team-card-players">Players: {getTotalPlayers(team)}</p>
             </div>
           </div>
         ))}

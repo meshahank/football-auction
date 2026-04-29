@@ -43,90 +43,67 @@
 
 /* table container */
 .unsold-container {
-  background: var(--bg-elevated);
-  border: 1px solid var(--border);
-  border-radius: var(--r-lg);
-  overflow: hidden;
+  background: transparent;
 }
 
-/* table */
-.unsold-table {
+/* unsold players grid */
+.unsold-players-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 16px;
+}
+
+.unsold-player-card {
+  position: relative;
+}
+
+.unsold-player-image-container {
+  position: relative;
   width: 100%;
-  border-collapse: collapse;
+  aspect-ratio: 3/4;
+  overflow: hidden;
+  border-radius: var(--r-md);
 }
 
-.unsold-table thead {
-  background: var(--bg-surface);
-  border-bottom: 1px solid var(--border);
+.unsold-player-image {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--r-md);
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s var(--ease);
 }
 
-.unsold-table th {
-  padding: 14px 18px;
-  text-align: left;
-  font-size: 10px;
+.unsold-player-card:hover .unsold-player-image {
+  transform: scale(1.05);
+}
+
+/* status badge */
+.status-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 6px 12px;
+  font-size: 11px;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.8px;
-  color: var(--text-muted);
-}
-
-.unsold-table tbody tr {
-  border-bottom: 1px solid var(--border);
-  transition: background 0.15s var(--ease);
-}
-
-.unsold-table tbody tr:last-child {
-  border-bottom: none;
-}
-
-.unsold-table tbody tr:hover {
-  background: var(--bg-glass);
-}
-
-.unsold-table td {
-  padding: 14px 18px;
-  font-size: 13px;
-  color: var(--text-secondary);
-  font-variant-numeric: tabular-nums;
-}
-
-/* player cell */
-.player-cell {
-  min-width: 180px;
-}
-
-.player-info {
+  text-transform: capitalize;
+  letter-spacing: 0.4px;
+  border-radius: 99px;
+  backdrop-filter: blur(8px);
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 4px;
 }
 
-.player-thumb {
-  width: 36px;
-  height: 36px;
-  border-radius: var(--r-sm);
-  object-fit: cover;
-  border: 1px solid var(--border);
-  background: var(--bg-surface);
-  flex-shrink: 0;
-}
+.status-badge.available  { background: rgba(59,130,246,0.9);   color: #fff; }
+.status-badge.in-auction { background: rgba(245,158,11,0.9);   color: #fff; }
+.status-badge.sold       { background: rgba(34,197,94,0.9);    color: #fff; }
+.status-badge.unsold     { background: rgba(239,68,68,0.9);    color: #fff; }
 
-.player-name {
-  font-weight: 700;
-  color: var(--text-primary);
-  font-size: 14px;
-}
+/* old table styles (removed) */
 
-/* base price cell */
-.base-price {
-  font-weight: 700;
-  color: var(--danger);
-  background: rgba(239,68,68,0.08);
-  padding: 5px 12px;
-  border-radius: 99px;
-  display: inline-block;
-  font-size: 12px;
-}
+/* table */
+/* old table styles removed */
 
 /* empty state */
 .no-unsold {
@@ -152,14 +129,17 @@
 
 /* responsive */
 @media (max-width: 768px) {
-  .unsold-table th,
-  .unsold-table td {
-    padding: 12px 12px;
-    font-size: 12px;
+  .unsold-players-grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 12px;
   }
 
-  .player-thumb {
-    width: 30px;
-    height: 30px;
+  .unsold-player-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .unsold-player-name {
+    font-size: 11px;
   }
 }

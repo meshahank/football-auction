@@ -133,7 +133,7 @@
 
 .player-name {
   font-family: 'Syne', sans-serif;
-  font-size: 48px;
+  font-size: 5rem;
   font-weight: 800;
   color: var(--text-primary);
   letter-spacing: -2px;

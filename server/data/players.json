@@ -2,505 +2,449 @@
   {
     "id": 1,
     "name": "Marcus Stevens",
-    "stats": { "goals": 25, "assists": 12, "passes": 1250, "dribbles": 145 },
     "basePrice": 50,
     "status": "available",
     "teamId": null,
-    "imagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6YIdt-YyO5kwYCqly9MIp42PQlp9jPEqhNg&s"
+    "imagePath": "/players/1.png"
   },
   {
     "id": 2,
     "name": "James Mitchell",
-    "stats": { "goals": 18, "assists": 8, "passes": 980, "dribbles": 138 },
     "basePrice": 45,
     "status": "available",
     "teamId": null,
-    "imagePath": "/img/"
+    "imagePath": "/players/2.png"
   },
   {
     "id": 3,
     "name": "David Thompson",
-    "stats": { "goals": 28, "assists": 15, "passes": 1450, "dribbles": 152 },
     "basePrice": 60,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/3.jpg"
+    "imagePath": "/players/3.png"
   },
   {
     "id": 4,
     "name": "Ryan Cooper",
-    "stats": { "goals": 12, "assists": 22, "passes": 820, "dribbles": 95 },
     "basePrice": 55,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/4.jpg"
+    "imagePath": "/players/4.png"
   },
   {
     "id": 5,
     "name": "Alex Richardson",
-    "stats": { "goals": 22, "assists": 18, "passes": 1100, "dribbles": 125 },
     "basePrice": 50,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/5.jpg"
+    "imagePath": "/players/5.png"
   },
   {
     "id": 6,
     "name": "Chris Anderson",
-    "stats": { "goals": 16, "assists": 14, "passes": 950, "dribbles": 140 },
     "basePrice": 42,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/6.jpg"
+    "imagePath": "/players/6.png"
   },
   {
     "id": 7,
     "name": "Luke Hayes",
-    "stats": { "goals": 26, "assists": 11, "passes": 1320, "dribbles": 148 },
     "basePrice": 58,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/7.jpg"
+    "imagePath": "/players/7.png"
   },
   {
     "id": 8,
     "name": "Nathan Brooks",
-    "stats": { "goals": 14, "assists": 25, "passes": 760, "dribbles": 92 },
     "basePrice": 52,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/8.jpg"
+    "imagePath": "/players/8.png"
   },
   {
     "id": 9,
     "name": "Peter Daniels",
-    "stats": { "goals": 23, "assists": 13, "passes": 1180, "dribbles": 142 },
     "basePrice": 48,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/9.jpg"
+    "imagePath": "/players/9.png"
   },
   {
     "id": 10,
     "name": "Simon Taylor",
-    "stats": { "goals": 19, "assists": 16, "passes": 1020, "dribbles": 135 },
     "basePrice": 46,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/10.jpg"
+    "imagePath": "/players/10.png"
   },
   {
     "id": 11,
     "name": "Oliver Wilson",
-    "stats": { "goals": 30, "assists": 9, "passes": 1380, "dribbles": 155 },
     "basePrice": 62,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/11.jpg"
+    "imagePath": "/players/11.png"
   },
   {
     "id": 12,
     "name": "Ben Patterson",
-    "stats": { "goals": 15, "assists": 20, "passes": 880, "dribbles": 105 },
     "basePrice": 44,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/12.jpg"
+    "imagePath": "/players/12.png"
   },
   {
     "id": 13,
     "name": "Tom Clarke",
-    "stats": { "goals": 24, "assists": 7, "passes": 1250, "dribbles": 150 },
     "basePrice": 56,
-    "status": "sold",
-    "teamId": 1,
-    "imagePath": "/players/13.jpg"
+    "status": "available",
+    "teamId": null,
+    "imagePath": "/players/13.png"
   },
   {
     "id": 14,
     "name": "John Roberts",
-    "stats": { "goals": 17, "assists": 19, "passes": 950, "dribbles": 110 },
     "basePrice": 49,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/14.jpg"
+    "imagePath": "/players/14.png"
   },
   {
     "id": 15,
     "name": "Michael Foster",
-    "stats": { "goals": 20, "assists": 12, "passes": 1140, "dribbles": 132 },
     "basePrice": 51,
-    "status": "unsold",
+    "status": "available",
     "teamId": null,
-    "imagePath": "/players/15.jpg"
+    "imagePath": "/players/15.png"
   },
   {
     "id": 16,
     "name": "Kevin Murphy",
-    "stats": { "goals": 13, "assists": 23, "passes": 820, "dribbles": 98 },
     "basePrice": 47,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/16.jpg"
+    "imagePath": "/players/16.png"
   },
   {
     "id": 17,
     "name": "William Brown",
-    "stats": { "goals": 27, "assists": 10, "passes": 1300, "dribbles": 148 },
     "basePrice": 59,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/17.jpg"
+    "imagePath": "/players/17.png"
   },
   {
     "id": 18,
     "name": "Daniel White",
-    "stats": { "goals": 21, "assists": 17, "passes": 1050, "dribbles": 128 },
     "basePrice": 50,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/18.jpg"
+    "imagePath": "/players/18.png"
   },
   {
     "id": 19,
     "name": "Anthony Collins",
-    "stats": { "goals": 18, "assists": 21, "passes": 920, "dribbles": 108 },
     "basePrice": 45,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/19.jpg"
+    "imagePath": "/players/19.png"
   },
   {
     "id": 20,
     "name": "George Martinez",
-    "stats": { "goals": 24, "assists": 14, "passes": 1190, "dribbles": 139 },
     "basePrice": 53,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/20.jpg"
+    "imagePath": "/players/20.png"
   },
   {
     "id": 21,
     "name": "Henry Chapman",
-    "stats": { "goals": 14, "assists": 24, "passes": 850, "dribbles": 100 },
     "basePrice": 43,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/21.jpg"
+    "imagePath": "/players/21.png"
   },
   {
     "id": 22,
     "name": "Paul Sanders",
-    "stats": { "goals": 25, "assists": 8, "passes": 1260, "dribbles": 151 },
     "basePrice": 57,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/22.jpg"
+    "imagePath": "/players/22.png"
   },
   {
     "id": 23,
     "name": "Robert Lee",
-    "stats": { "goals": 22, "assists": 15, "passes": 1100, "dribbles": 130 },
     "basePrice": 52,
-    "status": "sold",
-    "teamId": 6,
-    "imagePath": "/players/23.jpg"
+    "status": "available",
+    "teamId": null,
+    "imagePath": "/players/23.png"
   },
   {
     "id": 24,
     "name": "Edward Bell",
-    "stats": { "goals": 19, "assists": 18, "passes": 980, "dribbles": 122 },
     "basePrice": 48,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/24.jpg"
+    "imagePath": "/players/24.png"
   },
   {
     "id": 25,
     "name": "Thomas Hughes",
-    "stats": { "goals": 28, "assists": 11, "passes": 1330, "dribbles": 146 },
     "basePrice": 61,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/25.jpg"
+    "imagePath": "/players/25.png"
   },
   {
     "id": 26,
     "name": "Charles Grant",
-    "stats": { "goals": 13, "assists": 26, "passes": 890, "dribbles": 96 },
     "basePrice": 46,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/26.jpg"
+    "imagePath": "/players/26.png"
   },
   {
     "id": 27,
     "name": "Andrew Watson",
-    "stats": { "goals": 23, "assists": 12, "passes": 1210, "dribbles": 144 },
     "basePrice": 54,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/27.jpg"
+    "imagePath": "/players/27.png"
   },
   {
     "id": 28,
     "name": "Richard Harper",
-    "stats": { "goals": 21, "assists": 19, "passes": 1050, "dribbles": 126 },
     "basePrice": 49,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/28.jpg"
+    "imagePath": "/players/28.png"
   },
   {
     "id": 29,
     "name": "Frederick Price",
-    "stats": { "goals": 18, "assists": 20, "passes": 920, "dribbles": 112 },
     "basePrice": 47,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/29.jpg"
+    "imagePath": "/players/29.png"
   },
   {
     "id": 30,
     "name": "Patrick Ellis",
-    "stats": { "goals": 26, "assists": 9, "passes": 1280, "dribbles": 152 },
     "basePrice": 58,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/30.jpg"
+    "imagePath": "/players/30.png"
   },
   {
     "id": 31,
     "name": "Samuel Hunt",
-    "stats": { "goals": 12, "assists": 21, "passes": 810, "dribbles": 101 },
     "basePrice": 44,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/31.jpg"
+    "imagePath": "/players/31.png"
   },
   {
     "id": 32,
     "name": "Vincent Ray",
-    "stats": { "goals": 22, "assists": 16, "passes": 1170, "dribbles": 136 },
     "basePrice": 51,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/32.jpg"
+    "imagePath": "/players/32.png"
   },
   {
     "id": 33,
     "name": "Walter Scott",
-    "stats": { "goals": 29, "assists": 10, "passes": 1380, "dribbles": 149 },
     "basePrice": 63,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/33.jpg"
+    "imagePath": "/players/33.png"
   },
   {
     "id": 34,
     "name": "Gerald Nichols",
-    "stats": { "goals": 17, "assists": 22, "passes": 950, "dribbles": 114 },
     "basePrice": 50,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/34.jpg"
+    "imagePath": "/players/34.png"
   },
   {
     "id": 35,
     "name": "Bernard Murray",
-    "stats": { "goals": 20, "assists": 13, "passes": 1120, "dribbles": 129 },
     "basePrice": 52,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/35.jpg"
+    "imagePath": "/players/35.png"
   },
   {
     "id": 36,
     "name": "Lawrence Cox",
-    "stats": { "goals": 15, "assists": 25, "passes": 880, "dribbles": 102 },
     "basePrice": 45,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/36.jpg"
+    "imagePath": "/players/36.png"
   },
   {
     "id": 37,
     "name": "Roy Freeman",
-    "stats": { "goals": 25, "assists": 14, "passes": 1240, "dribbles": 141 },
     "basePrice": 55,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/37.jpg"
+    "imagePath": "/players/37.png"
   },
   {
     "id": 38,
     "name": "Philip Wells",
-    "stats": { "goals": 20, "assists": 17, "passes": 1000, "dribbles": 124 },
     "basePrice": 48,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/38.jpg"
+    "imagePath": "/players/38.png"
   },
   {
     "id": 39,
     "name": "Ralph Simpson",
-    "stats": { "goals": 18, "assists": 19, "passes": 920, "dribbles": 118 },
     "basePrice": 46,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/39.jpg"
+    "imagePath": "/players/39.png"
   },
   {
     "id": 40,
     "name": "Ernest Holmes",
-    "stats": { "goals": 27, "assists": 11, "passes": 1310, "dribbles": 147 },
     "basePrice": 60,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/40.jpg"
+    "imagePath": "/players/40.png"
   },
   {
     "id": 41,
     "name": "Arthur Carter",
-    "stats": { "goals": 14, "assists": 23, "passes": 840, "dribbles": 104 },
     "basePrice": 47,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/41.jpg"
+    "imagePath": "/players/41.png"
   },
   {
     "id": 42,
     "name": "Stanley Hart",
-    "stats": { "goals": 22, "assists": 15, "passes": 1160, "dribbles": 133 },
     "basePrice": 51,
-    "status": "unsold",
+    "status": "available",
     "teamId": null,
-    "imagePath": "/players/42.jpg"
+    "imagePath": "/players/42.png"
   },
   {
     "id": 43,
     "name": "Cecil Duncan",
-    "stats": { "goals": 29, "assists": 8, "passes": 1420, "dribbles": 156 },
     "basePrice": 64,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/43.jpg"
+    "imagePath": "/players/43.png"
   },
   {
     "id": 44,
     "name": "Oscar Shaw",
-    "stats": { "goals": 19, "assists": 20, "passes": 980, "dribbles": 116 },
     "basePrice": 49,
-    "status": "unsold",
+    "status": "available",
     "teamId": null,
-    "imagePath": "/players/44.jpg"
+    "imagePath": "/players/44.png"
   },
   {
     "id": 45,
     "name": "Clarence Perry",
-    "stats": { "goals": 21, "assists": 16, "passes": 1090, "dribbles": 127 },
     "basePrice": 50,
-    "status": "sold",
-    "teamId": 1,
-    "imagePath": "/players/45.jpg"
+    "status": "available",
+    "teamId": null,
+    "imagePath": "/players/45.png"
   },
   {
     "id": 46,
     "name": "Martin Powell",
-    "stats": { "goals": 14, "assists": 24, "passes": 860, "dribbles": 99 },
     "basePrice": 44,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/46.jpg"
+    "imagePath": "/players/46.png"
   },
   {
     "id": 47,
     "name": "Norman Drew",
-    "stats": { "goals": 23, "assists": 13, "passes": 1200, "dribbles": 137 },
     "basePrice": 53,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/47.jpg"
+    "imagePath": "/players/47.png"
   },
   {
     "id": 48,
     "name": "Horace Marsh",
-    "stats": { "goals": 21, "assists": 18, "passes": 1050, "dribbles": 128 },
     "basePrice": 51,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/48.jpg"
+    "imagePath": "/players/48.png"
   },
   {
     "id": 49,
     "name": "Everett Webb",
-    "stats": { "goals": 16, "assists": 21, "passes": 940, "dribbles": 111 },
     "basePrice": 48,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/49.jpg"
+    "imagePath": "/players/49.png"
   },
   {
     "id": 50,
     "name": "Gordon Bailey",
-    "stats": { "goals": 25, "assists": 10, "passes": 1270, "dribbles": 150 },
     "basePrice": 57,
-    "status": "in-auction",
+    "status": "available",
     "teamId": null,
-    "imagePath": "/players/50.jpg"
+    "imagePath": "/players/50.png"
   },
   {
     "id": 51,
     "name": "Aubrey Rivers",
-    "stats": { "goals": 13, "assists": 22, "passes": 820, "dribbles": 103 },
     "basePrice": 45,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/51.jpg"
+    "imagePath": "/players/51.png"
   },
   {
     "id": 52,
     "name": "Wesley Moon",
-    "stats": { "goals": 20, "assists": 14, "passes": 1140, "dribbles": 131 },
     "basePrice": 52,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/52.jpg"
+    "imagePath": "/players/52.png"
   },
   {
     "id": 53,
     "name": "Irving Knight",
-    "stats": { "goals": 28, "assists": 12, "passes": 1380, "dribbles": 153 },
     "basePrice": 62,
-    "status": "sold",
+    "status": "available",
     "teamId": 3,
-    "imagePath": "/players/53.jpg"
+    "imagePath": "/players/53.png"
   },
   {
     "id": 54,
     "name": "Virgil Bishop",
-    "stats": { "goals": 17, "assists": 18, "passes": 950, "dribbles": 119 },
     "basePrice": 49,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/54.jpg"
+    "imagePath": "/players/54.png"
   },
   {
     "id": 55,
     "name": "Wade Mills",
-    "stats": { "goals": 22, "assists": 15, "passes": 1100, "dribbles": 129 },
     "basePrice": 52,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/55.jpg"
+    "imagePath": "/players/55.png"
   },
   {
     "id": 56,
     "name": "Victor Stone",
-    "stats": { "goals": 26, "assists": 9, "passes": 1320, "dribbles": 148 },
     "basePrice": 59,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/56.jpg"
+    "imagePath": "/players/56.png"
   }
 ]

@@ -4,6 +4,21 @@ import './UnsoldList.css';
 function UnsoldList({ players }) {
   const unsoldPlayers = players.filter(p => p.status === 'unsold');
 
+  const getStatusIcon = (status) => {
+    switch (status) {
+      case 'available':
+        return '✅';
+      case 'in-auction':
+        return '🔄';
+      case 'sold':
+        return '✔️';
+      case 'unsold':
+        return '❌';
+      default:
+        return '';
+    }
+  };
+
   return (
     <div className="unsold-list">
       <h1 className="page-title">⛔ Unsold Players</h1>
@@ -17,42 +32,25 @@ function UnsoldList({ players }) {
 
       {unsoldPlayers.length > 0 ? (
         <div className="unsold-container">
-          <table className="unsold-table">
-            <thead>
-              <tr>
-                <th>Player</th>
-                <th>Goals</th>
-                <th>Assists</th>
-                <th>Passes</th>
-                <th>Dribbles</th>
-                <th>Base Price</th>
-              </tr>
-            </thead>
-            <tbody>
-              {unsoldPlayers.map((player) => (
-                <tr key={player.id} className="table-row">
-                  <td className="player-cell">
-                    <div className="player-info">
-                      <img
-                        src={player.imagePath || 'https://via.placeholder.com/40'}
-                        alt={player.name}
-                        className="player-thumb"
-                        onError={(e) =>
-                          e.target.src = 'https://via.placeholder.com/40'
-                        }
-                      />
-                      <span className="player-name">{player.name}</span>
-                    </div>
-                  </td>
-                  <td>{player.stats.goals}</td>
-                  <td>{player.stats.assists}</td>
-                  <td>{player.stats.passes}</td>
-                  <td>{player.stats.dribbles}</td>
-                  <td className="base-price">₹{player.basePrice} CR</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+          <div className="unsold-players-grid">
+            {unsoldPlayers.map((player) => (
+              <div key={player.id} className="unsold-player-card">
+                <div className="unsold-player-image-container">
+                  <img
+                    src={player.imagePath || 'https://via.placeholder.com/120?text=Player'}
+                    alt={player.name}
+                    className="unsold-player-image"
+                    onError={(e) =>
+                      e.target.src = 'https://via.placeholder.com/120?text=Player'
+                    }
+                  />
+                  <div className="status-badge unsold">
+                    {getStatusIcon('unsold')} Unsold
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       ) : (
         <div className="no-unsold">

@@ -42,25 +42,29 @@
 .summary-strip-item.green  .s-value { color: var(--success); }
 .summary-strip-item.red    .s-value { color: var(--danger); }
 
-/* teams grid */
-.teams-container {
+/* teams grid - simplified cards */
+.teams-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 20px;
 }
 
-/* team card */
-.team-card {
+/* simplified team card */
+.team-card-simplified {
   background: var(--bg-elevated);
   border: 1px solid var(--border);
   border-radius: var(--r-lg);
-  padding: 24px;
-  transition: border-color 0.2s var(--ease), transform 0.2s var(--ease);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+  transition: all 0.3s var(--ease);
   position: relative;
   overflow: hidden;
 }
 
-.team-card::after {
+.team-card-simplified::before {
   content: '';
   position: absolute;
   top: 0;
@@ -69,142 +73,64 @@
   height: 3px;
   background: var(--accent);
   opacity: 0;
-  transition: opacity 0.2s var(--ease);
+  transition: opacity 0.3s var(--ease);
 }
 
-.team-card:hover {
+.team-card-simplified:hover {
   border-color: rgba(255,255,255,0.12);
   transform: translateY(-4px);
+  background: var(--bg-glass-md);
 }
 
-.team-card:hover::after {
+.team-card-simplified:hover::before {
   opacity: 1;
 }
 
-.team-header {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  margin-bottom: 24px;
-}
-
-.team-logo {
-  width: 48px;
-  height: 48px;
-  border-radius: var(--r-sm);
-  object-fit: cover;
+.team-card-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: var(--r-md);
+  object-fit: contain;
+  object-position: center;
   background: var(--bg-glass-md);
   border: 1px solid var(--border);
+  flex-shrink: 0;
 }
 
-.team-name {
+.team-card-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.team-card-name {
   font-family: 'Syne', sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 800;
   color: var(--text-primary);
   letter-spacing: -0.3px;
+  margin: 0 0 8px 0;
 }
 
-/* budget stats */
-.budget-section {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-.budget-stat {
-  background: var(--bg-surface);
-  border: 1px solid var(--border);
-  border-radius: var(--r-sm);
-  padding: 12px 10px;
-  text-align: center;
-}
-
-.stat-label {
-  display: block;
-  font-size: 9px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+.team-card-manager {
+  font-size: 13px;
   color: var(--text-muted);
-  margin-bottom: 5px;
+  margin: 0 0 6px 0;
 }
 
-.stat-value {
-  display: block;
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--text-primary);
-}
-
-.stat-value.spent     { color: var(--danger); }
-.stat-value.remaining { color: var(--success); }
-
-/* progress */
-.budget-bar-container {
-  margin-bottom: 20px;
-}
-
-.budget-bar {
-  width: 100%;
-  height: 5px;
-  background: var(--bg-glass-md);
-  border-radius: 99px;
-  overflow: hidden;
-  margin-bottom: 6px;
-}
-
-.budget-filled {
-  height: 100%;
-  background: var(--accent);
-  border-radius: 99px;
-  transition: width 0.5s var(--ease);
-}
-
-.budget-percent {
-  font-size: 11px;
+.team-card-players {
+  font-size: 13px;
   color: var(--text-muted);
-  font-weight: 600;
-}
-
-/* players count */
-.players-info {
-  display: flex;
-  justify-content: center;
-}
-
-.players-count {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 4px;
-  background: var(--bg-glass);
-  border: 1px solid var(--border);
-  border-radius: var(--r-sm);
-  padding: 12px 28px;
-  width: 100%;
-}
-
-.count-label {
-  font-size: 10px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  color: var(--text-muted);
-}
-
-.count-value {
-  font-family: 'Syne', sans-serif;
-  font-size: 28px;
-  font-weight: 800;
-  color: var(--text-primary);
+  margin: 0;
 }
 
 /* responsive */
 @media (max-width: 900px) {
   .summary-strip {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .teams-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 }
 
@@ -213,11 +139,16 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  .teams-container {
+  .teams-grid {
     grid-template-columns: 1fr;
   }
 
-  .budget-section {
-    grid-template-columns: 1fr;
+  .team-card-simplified {
+    padding: 16px;
+  }
+
+  .team-card-logo {
+    width: 80px;
+    height: 80px;
   }
 }

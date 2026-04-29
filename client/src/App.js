@@ -6,6 +6,7 @@ import './App.css';
 import LoginPage from './pages/LoginPage';
 import AuctionPage from './pages/AuctionPage';
 import TeamDashboard from './pages/TeamDashboard';
+import TeamDetail from './pages/TeamDetail';
 import AllPlayersGrid from './pages/AllPlayersGrid';
 import UnsoldList from './pages/UnsoldList';
 import AdminPanel from './pages/AdminPanel';
@@ -92,6 +93,9 @@ function App() {
           } />
           <Route path="/teams" element={
             <TeamDashboard teams={teams} />
+          } />
+          <Route path="/teams/:teamId" element={
+            <TeamDetail teams={teams} players={players} />
           } />
           <Route path="/players" element={
             <AllPlayersGrid players={players} />

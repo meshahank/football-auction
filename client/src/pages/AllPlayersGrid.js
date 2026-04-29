@@ -110,39 +110,6 @@ function AllPlayersGrid({ players }) {
                   {getStatusIcon(player.status)} {player.status}
                 </div>
               </div>
-
-              <div className="player-card-content">
-                <h3 className="player-name">{player.name}</h3>
-
-                <div className="stats-mini">
-                  <div className="stat-mini">
-                    <span className="label">Goals</span>
-                    <span className="value">{player.stats.goals}</span>
-                  </div>
-                  <div className="stat-mini">
-                    <span className="label">Assists</span>
-                    <span className="value">{player.stats.assists}</span>
-                  </div>
-                  <div className="stat-mini">
-                    <span className="label">Passes</span>
-                    <span className="value">{player.stats.passes}</span>
-                  </div>
-                  <div className="stat-mini">
-                    <span className="label">Dribbles</span>
-                    <span className="value">{player.stats.dribbles}</span>
-                  </div>
-                </div>
-
-                <div className="player-price">
-                  Base Price: ₹{player.basePrice} CR
-                </div>
-
-                {player.status === 'sold' && player.teamId && (
-                  <div className="sold-info">
-                    Sold to Team #{player.teamId}
-                  </div>
-                )}
-              </div>
             </div>
           ))
         ) : (

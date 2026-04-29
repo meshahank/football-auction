@@ -31,7 +31,7 @@ function LoginPage({ onLogin }) {
       <div className="login-left">
         <div className="login-brand">AFC<span>.</span></div>
         <p className="login-tagline">
-          The premier live cricket auction platform.
+          The premier live football auction platform.
           Real-time bidding, instant team updates.
         </p>
         <div className="login-feature-list">

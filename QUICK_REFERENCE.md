@@ -130,7 +130,7 @@ npm start
 {
   "id": 1,
   "name": "Marcus Stevens",
-  "stats": {"runs": 1250, "wickets": 12, "avg": 42.5, "sr": 145},
+  "stats": {"goals": 25, "assists": 12, "passes": 1250, "dribbles": 145},
   "basePrice": 50,
   "status": "available",
   "teamId": null,
@@ -167,7 +167,7 @@ npm start
 - **Search Players**: Use the search on "All Players" page to find players fast
 - **Unsold Tracking**: Players can be marked unsold and auctioned later
 - **Live Sync**: All users see updates instantly - no refresh needed
-- **Stats Detail**: Each player has runs, wickets, average, and strike rate
+- **Stats Detail**: Each player has goals, assists, passes, and dribbles
 
 ## 🎨 Responsive Design
 

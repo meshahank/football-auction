@@ -223,10 +223,10 @@ socket.emit('new-event-name', { data }, (response) => {
   "id": number,
   "name": string,
   "stats": {
-    "runs": number,
-    "wickets": number,
-    "avg": number,
-    "sr": number
+    "goals": number,
+    "assists": number,
+    "passes": number,
+    "dribbles": number
   },
   "basePrice": number (in CR),
   "status": "available" | "in-auction" | "sold" | "unsold",
