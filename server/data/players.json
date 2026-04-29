@@ -1,450 +1,562 @@
 [
   {
     "id": 1,
-    "name": "Marcus Stevens",
-    "basePrice": 50,
+    "name": "Arshad",
+    "position": "CB",
+    "basePrice": 70,
+    "rating": 111,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/1.png"
+    "imagePath": "/players/arshad.png"
   },
   {
     "id": 2,
-    "name": "James Mitchell",
-    "basePrice": 45,
+    "name": "Jalal",
+    "position": "CF",
+    "basePrice": 70,
+    "rating": 110,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/2.png"
+    "imagePath": "/players/jalal.png"
   },
   {
     "id": 3,
-    "name": "David Thompson",
+    "name": "Hanan B",
+    "position": "CF",
     "basePrice": 60,
+    "rating": 110,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/3.png"
+    "imagePath": "/players/hanan-b.png"
   },
   {
     "id": 4,
-    "name": "Ryan Cooper",
-    "basePrice": 55,
+    "name": "Hasan",
+    "position": "CF",
+    "basePrice": 70,
+    "rating": 109,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/4.png"
+    "imagePath": "/players/hasan.png"
   },
   {
     "id": 5,
-    "name": "Alex Richardson",
-    "basePrice": 50,
+    "name": "Yaseen",
+    "position": "CF",
+    "basePrice": 70,
+    "rating": 109,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/5.png"
+    "imagePath": "/players/yaseen.png"
   },
   {
     "id": 6,
-    "name": "Chris Anderson",
-    "basePrice": 42,
+    "name": "Arshad",
+    "position": "CF",
+    "basePrice": 60,
+    "rating": 109,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/6.png"
+    "imagePath": "/players/arshad-2.png"
   },
   {
     "id": 7,
-    "name": "Luke Hayes",
-    "basePrice": 58,
+    "name": "Hanan",
+    "position": "GK",
+    "basePrice": 70,
+    "rating": 108,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/7.png"
+    "imagePath": "/players/hanan.png"
   },
   {
     "id": 8,
-    "name": "Nathan Brooks",
-    "basePrice": 52,
+    "name": "Murshid",
+    "position": "GK",
+    "basePrice": 70,
+    "rating": 108,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/8.png"
+    "imagePath": "/players/murshid.png"
   },
   {
     "id": 9,
-    "name": "Peter Daniels",
-    "basePrice": 48,
+    "name": "Sahl",
+    "position": "CB",
+    "basePrice": 70,
+    "rating": 108,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/9.png"
+    "imagePath": "/players/sahl.png"
   },
   {
     "id": 10,
-    "name": "Simon Taylor",
-    "basePrice": 46,
+    "name": "Amaan",
+    "position": "SS",
+    "basePrice": 70,
+    "rating": 107,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/10.png"
+    "imagePath": "/players/amaan.png"
   },
   {
     "id": 11,
-    "name": "Oliver Wilson",
-    "basePrice": 62,
+    "name": "Nabhan",
+    "position": "LWF",
+    "basePrice": 70,
+    "rating": 107,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/11.png"
+    "imagePath": "/players/nabhan.png"
   },
   {
     "id": 12,
-    "name": "Ben Patterson",
-    "basePrice": 44,
+    "name": "Shaheer",
+    "position": "CB",
+    "basePrice": 70,
+    "rating": 106,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/12.png"
+    "imagePath": "/players/shaheer.png"
   },
   {
     "id": 13,
-    "name": "Tom Clarke",
-    "basePrice": 56,
+    "name": "Shameem",
+    "position": "SS",
+    "basePrice": 70,
+    "rating": 106,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/13.png"
+    "imagePath": "/players/shameem.png"
   },
   {
     "id": 14,
-    "name": "John Roberts",
-    "basePrice": 49,
+    "name": "Jinan",
+    "position": "LB",
+    "basePrice": 70,
+    "rating": 105,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/14.png"
+    "imagePath": "/players/jinan.png"
   },
   {
     "id": 15,
-    "name": "Michael Foster",
-    "basePrice": 51,
+    "name": "Nihad",
+    "position": "AMF",
+    "basePrice": 70,
+    "rating": 105,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/15.png"
+    "imagePath": "/players/nihad.png"
   },
   {
     "id": 16,
-    "name": "Kevin Murphy",
-    "basePrice": 47,
+    "name": "Ziyad",
+    "position": "RB",
+    "basePrice": 70,
+    "rating": 105,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/16.png"
+    "imagePath": "/players/ziyad.png"
   },
   {
     "id": 17,
-    "name": "William Brown",
-    "basePrice": 59,
+    "name": "Najad",
+    "position": "AMF",
+    "basePrice": 60,
+    "rating": 105,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/17.png"
+    "imagePath": "/players/najad.png"
   },
   {
     "id": 18,
-    "name": "Daniel White",
-    "basePrice": 50,
+    "name": "Irfan",
+    "position": "SS",
+    "basePrice": 70,
+    "rating": 104,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/18.png"
+    "imagePath": "/players/irfan.png"
   },
   {
     "id": 19,
-    "name": "Anthony Collins",
-    "basePrice": 45,
+    "name": "Shammas",
+    "position": "GK",
+    "basePrice": 70,
+    "rating": 104,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/19.png"
+    "imagePath": "/players/shammas.png"
   },
   {
     "id": 20,
-    "name": "George Martinez",
-    "basePrice": 53,
+    "name": "Ubaid",
+    "position": "AMF",
+    "basePrice": 70,
+    "rating": 104,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/20.png"
+    "imagePath": "/players/ubaid.png"
   },
   {
     "id": 21,
-    "name": "Henry Chapman",
-    "basePrice": 43,
+    "name": "Uvais",
+    "position": "RB",
+    "basePrice": 70,
+    "rating": 104,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/21.png"
+    "imagePath": "/players/uvais.png"
   },
   {
     "id": 22,
-    "name": "Paul Sanders",
-    "basePrice": 57,
+    "name": "Thameem",
+    "position": "LB",
+    "basePrice": 60,
+    "rating": 104,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/22.png"
+    "imagePath": "/players/thameem.png"
   },
   {
     "id": 23,
-    "name": "Robert Lee",
-    "basePrice": 52,
+    "name": "Adil KT",
+    "position": "CF",
+    "basePrice": 60,
+    "rating": 103,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/23.png"
+    "imagePath": "/players/adil-kt.png"
   },
   {
     "id": 24,
-    "name": "Edward Bell",
-    "basePrice": 48,
+    "name": "Anwar",
+    "position": "AMF",
+    "basePrice": 60,
+    "rating": 103,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/24.png"
+    "imagePath": "/players/anwar.png"
   },
   {
     "id": 25,
-    "name": "Thomas Hughes",
-    "basePrice": 61,
+    "name": "Salih",
+    "position": "CF",
+    "basePrice": 60,
+    "rating": 103,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/25.png"
+    "imagePath": "/players/salih.png"
   },
   {
     "id": 26,
-    "name": "Charles Grant",
-    "basePrice": 46,
+    "name": "Shoubar",
+    "position": "SS",
+    "basePrice": 60,
+    "rating": 103,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/26.png"
+    "imagePath": "/players/shoubar.png"
   },
   {
     "id": 27,
-    "name": "Andrew Watson",
-    "basePrice": 54,
+    "name": "Ashmil",
+    "position": "GK",
+    "basePrice": 60,
+    "rating": 102,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/27.png"
+    "imagePath": "/players/ashmil.png"
   },
   {
     "id": 28,
-    "name": "Richard Harper",
-    "basePrice": 49,
+    "name": "Nihal",
+    "position": "GK",
+    "basePrice": 60,
+    "rating": 102,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/28.png"
+    "imagePath": "/players/nihal.png"
   },
   {
     "id": 29,
-    "name": "Frederick Price",
-    "basePrice": 47,
+    "name": "Salim",
+    "position": "SS",
+    "basePrice": 60,
+    "rating": 102,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/29.png"
+    "imagePath": "/players/salim.png"
   },
   {
     "id": 30,
-    "name": "Patrick Ellis",
-    "basePrice": 58,
+    "name": "Adil",
+    "position": "AMF",
+    "basePrice": 60,
+    "rating": 101,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/30.png"
+    "imagePath": "/players/adil.png"
   },
   {
     "id": 31,
-    "name": "Samuel Hunt",
-    "basePrice": 44,
+    "name": "Rifqathulla",
+    "position": "RB",
+    "basePrice": 60,
+    "rating": 101,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/31.png"
+    "imagePath": "/players/rifqathulla.png"
   },
   {
     "id": 32,
-    "name": "Vincent Ray",
-    "basePrice": 51,
+    "name": "Shammas",
+    "position": "GK",
+    "basePrice": 60,
+    "rating": 101,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/32.png"
+    "imagePath": "/players/shammas-2.png"
   },
   {
     "id": 33,
-    "name": "Walter Scott",
-    "basePrice": 63,
+    "name": "Afeef",
+    "position": "CB",
+    "basePrice": 60,
+    "rating": 100,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/33.png"
+    "imagePath": "/players/afeef.png"
   },
   {
     "id": 34,
-    "name": "Gerald Nichols",
-    "basePrice": 50,
+    "name": "Majid",
+    "position": "CB",
+    "basePrice": 60,
+    "rating": 100,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/34.png"
+    "imagePath": "/players/majid.png"
   },
   {
     "id": 35,
-    "name": "Bernard Murray",
-    "basePrice": 52,
+    "name": "Nasif",
+    "position": "SS",
+    "basePrice": 50,
+    "rating": 100,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/35.png"
+    "imagePath": "/players/nasif.png"
   },
   {
     "id": 36,
-    "name": "Lawrence Cox",
-    "basePrice": 45,
+    "name": "Nabeel",
+    "position": "CF",
+    "basePrice": 50,
+    "rating": 100,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/36.png"
+    "imagePath": "/players/nabeel.png"
   },
   {
     "id": 37,
-    "name": "Roy Freeman",
-    "basePrice": 55,
+    "name": "Abdullah",
+    "position": "CB",
+    "basePrice": 50,
+    "rating": 100,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/37.png"
+    "imagePath": "/players/abdullah.png"
   },
   {
     "id": 38,
-    "name": "Philip Wells",
-    "basePrice": 48,
+    "name": "Shamil",
+    "position": "CF",
+    "basePrice": 50,
+    "rating": 98,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/38.png"
+    "imagePath": "/players/shamil.png"
   },
   {
     "id": 39,
-    "name": "Ralph Simpson",
-    "basePrice": 46,
+    "name": "Amish",
+    "position": "CF",
+    "basePrice": 50,
+    "rating": 98,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/39.png"
+    "imagePath": "/players/amish.png"
   },
   {
     "id": 40,
-    "name": "Ernest Holmes",
-    "basePrice": 60,
+    "name": "Abshaar",
+    "position": "AMF",
+    "basePrice": 50,
+    "rating": 98,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/40.png"
+    "imagePath": "/players/abshaar.png"
   },
   {
     "id": 41,
-    "name": "Arthur Carter",
-    "basePrice": 47,
+    "name": "Hanoon",
+    "position": "CF",
+    "basePrice": 40,
+    "rating": 97,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/41.png"
+    "imagePath": "/players/hanoon.png"
   },
   {
     "id": 42,
-    "name": "Stanley Hart",
-    "basePrice": 51,
+    "name": "Nafrin",
+    "position": "CB",
+    "basePrice": 40,
+    "rating": 97,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/42.png"
+    "imagePath": "/players/nafrin.png"
   },
   {
     "id": 43,
-    "name": "Cecil Duncan",
-    "basePrice": 64,
+    "name": "Sajid",
+    "position": "CF",
+    "basePrice": 40,
+    "rating": 97,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/43.png"
+    "imagePath": "/players/sajid.png"
   },
   {
     "id": 44,
-    "name": "Oscar Shaw",
-    "basePrice": 49,
+    "name": "Shamveel",
+    "position": "CF",
+    "basePrice": 40,
+    "rating": 96,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/44.png"
+    "imagePath": "/players/shamveel.png"
   },
   {
     "id": 45,
-    "name": "Clarence Perry",
+    "name": "Nihal",
+    "position": "CB",
     "basePrice": 50,
+    "rating": 96,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/45.png"
+    "imagePath": "/players/nihal-2.png"
   },
   {
     "id": 46,
-    "name": "Martin Powell",
-    "basePrice": 44,
+    "name": "Shafin",
+    "position": "CF",
+    "basePrice": 50,
+    "rating": 96,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/46.png"
+    "imagePath": "/players/shafin.png"
   },
   {
     "id": 47,
-    "name": "Norman Drew",
-    "basePrice": 53,
+    "name": "Aflah",
+    "position": "AMF",
+    "basePrice": 50,
+    "rating": 96,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/47.png"
+    "imagePath": "/players/aflah.png"
   },
   {
     "id": 48,
-    "name": "Horace Marsh",
-    "basePrice": 51,
+    "name": "Ameen",
+    "position": "CB",
+    "basePrice": 50,
+    "rating": 96,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/48.png"
+    "imagePath": "/players/ameen.png"
   },
   {
     "id": 49,
-    "name": "Everett Webb",
-    "basePrice": 48,
+    "name": "Adin",
+    "position": "GK",
+    "basePrice": 50,
+    "rating": 96,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/49.png"
+    "imagePath": "/players/adin.png"
   },
   {
     "id": 50,
-    "name": "Gordon Bailey",
-    "basePrice": 57,
+    "name": "Ashmil",
+    "position": "CB",
+    "basePrice": 50,
+    "rating": 96,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/50.png"
+    "imagePath": "/players/ashmil-2.png"
   },
   {
     "id": 51,
-    "name": "Aubrey Rivers",
-    "basePrice": 45,
+    "name": "Nabeel",
+    "position": "GK",
+    "basePrice": 40,
+    "rating": 95,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/51.png"
+    "imagePath": "/players/nabeel-2.png"
   },
   {
     "id": 52,
-    "name": "Wesley Moon",
-    "basePrice": 52,
+    "name": "Habis",
+    "position": "CMF",
+    "basePrice": 40,
+    "rating": 94,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/52.png"
+    "imagePath": "/players/habis.png"
   },
   {
     "id": 53,
-    "name": "Irving Knight",
-    "basePrice": 62,
+    "name": "Shabeeh",
+    "position": "CF",
+    "basePrice": 40,
+    "rating": 94,
     "status": "available",
-    "teamId": 3,
-    "imagePath": "/players/53.png"
+    "teamId": null,
+    "imagePath": "/players/shabeeh.png"
   },
   {
     "id": 54,
-    "name": "Virgil Bishop",
-    "basePrice": 49,
+    "name": "Siraj",
+    "position": "CB",
+    "basePrice": 40,
+    "rating": 94,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/54.png"
+    "imagePath": "/players/siraj.png"
   },
   {
     "id": 55,
-    "name": "Wade Mills",
-    "basePrice": 52,
+    "name": "Jalal",
+    "position": "CMF",
+    "basePrice": 40,
+    "rating": 93,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/55.png"
+    "imagePath": "/players/jalal-2.png"
   },
   {
     "id": 56,
-    "name": "Victor Stone",
-    "basePrice": 59,
+    "name": "Minhaj",
+    "position": "CB",
+    "basePrice": 40,
+    "rating": 93,
     "status": "available",
     "teamId": null,
-    "imagePath": "/players/56.png"
+    "imagePath": "/players/minhaj.png"
   }
 ]
