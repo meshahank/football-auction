@@ -5,10 +5,14 @@
     "manager": "Amaan AK",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/250px-Logo_of_AC_Milan.svg.png",
     "totalBudget": 100,
-    "moneySpent": 80,
-    "budgetRemaining": 20,
+    "moneySpent": 98,
+    "budgetRemaining": 2,
     "players": [
-      22
+      22,
+      14,
+      19,
+      38,
+      34
     ]
   },
   {
@@ -17,9 +21,13 @@
     "manager": "Arshad",
     "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/250px-Liverpool_FC.svg.png",
     "totalBudget": 100,
-    "moneySpent": 0,
-    "budgetRemaining": 100,
-    "players": []
+    "moneySpent": 76.6,
+    "budgetRemaining": 23.400000000000006,
+    "players": [
+      29,
+      48,
+      46
+    ]
   },
   {
     "id": 3,
@@ -27,9 +35,13 @@
     "manager": "Amish",
     "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/250px-Real_Madrid_CF.svg.png",
     "totalBudget": 100,
-    "moneySpent": 0,
-    "budgetRemaining": 100,
-    "players": []
+    "moneySpent": 90.7,
+    "budgetRemaining": 9.299999999999997,
+    "players": [
+      42,
+      16,
+      33
+    ]
   },
   {
     "id": 4,
@@ -37,9 +49,18 @@
     "manager": "Sabiq P",
     "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/250px-Manchester_City_FC_badge.svg.png",
     "totalBudget": 100,
-    "moneySpent": 0,
-    "budgetRemaining": 100,
-    "players": []
+    "moneySpent": 87,
+    "budgetRemaining": 13,
+    "players": [
+      55,
+      40,
+      13,
+      24,
+      7,
+      43,
+      25,
+      10
+    ]
   },
   {
     "id": 5,
@@ -47,9 +68,12 @@
     "manager": "Nishal",
     "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/250px-FC_Barcelona_%28crest%29.svg.png",
     "totalBudget": 100,
-    "moneySpent": 0,
-    "budgetRemaining": 100,
-    "players": []
+    "moneySpent": 2,
+    "budgetRemaining": 98,
+    "players": [
+      31,
+      9
+    ]
   },
   {
     "id": 6,
@@ -57,9 +81,11 @@
     "manager": "Faheem",
     "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/250px-Paris_Saint-Germain_F.C..svg.png",
     "totalBudget": 100,
-    "moneySpent": 0,
-    "budgetRemaining": 100,
-    "players": []
+    "moneySpent": 60,
+    "budgetRemaining": 40,
+    "players": [
+      50
+    ]
   },
   {
     "id": 7,
@@ -77,8 +103,11 @@
     "manager": "Adil NP",
     "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/250px-Manchester_United_FC_crest.svg.png",
     "totalBudget": 100,
-    "moneySpent": 0,
-    "budgetRemaining": 100,
-    "players": []
+    "moneySpent": 1.6,
+    "budgetRemaining": 98.4,
+    "players": [
+      5,
+      11
+    ]
   }
 ]

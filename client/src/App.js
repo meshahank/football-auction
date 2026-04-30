@@ -9,6 +9,7 @@ import TeamDashboard from './pages/TeamDashboard';
 import TeamDetail from './pages/TeamDetail';
 import AllPlayersGrid from './pages/AllPlayersGrid';
 import UnsoldList from './pages/UnsoldList';
+import UnsoldSale from './pages/UnsoldSale';
 import AdminPanel from './pages/AdminPanel';
 import Header from './components/Header';
 
@@ -89,7 +90,7 @@ function App() {
       <main className="app-container">
         <Routes>
           <Route path="/auction" element={
-            <AuctionPage currentPlayer={currentPlayer} socket={socket} />
+            <AuctionPage currentPlayer={currentPlayer} socket={socket} isAdmin={isAdmin} />
           } />
           <Route path="/teams" element={
             <TeamDashboard teams={teams} />
@@ -104,9 +105,14 @@ function App() {
             <UnsoldList players={players} />
           } />
           {isAdmin && (
-            <Route path="/admin" element={
-              <AdminPanel socket={socket} players={players} teams={teams} currentPlayer={currentPlayer} />
-            } />
+            <>
+              <Route path="/unsold-sale" element={
+                <UnsoldSale players={players} teams={teams} socket={socket} />
+              } />
+              <Route path="/admin" element={
+                <AdminPanel socket={socket} players={players} teams={teams} currentPlayer={currentPlayer} />
+              } />
+            </>
           )}
           <Route path="/" element={<Navigate to="/auction" />} />
         </Routes>

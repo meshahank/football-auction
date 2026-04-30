@@ -17,6 +17,7 @@ function Header({ isAdmin, onLogout }) {
         <Link to="/players"  className={isActive('/players')}>Players</Link>
         <Link to="/unsold"   className={isActive('/unsold')}>Unsold</Link>
         {isAdmin && <Link to="/admin" className={isActive('/admin')}>Admin</Link>}
+        {isAdmin && <Link to="/unsold-sale" className={isActive('/unsold-sale')}>Unsold Sale</Link>}
         {isAdmin && <span className="admin-badge">Admin</span>}
         <button className="logout-btn" onClick={onLogout}>Sign out</button>
       </nav>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './AdminPanel.css';
+import { playSoldSound } from '../utils/soundEffects';
 
 function AdminPanel({ socket, players, teams, currentPlayer }) {
   const [salePrice, setSalePrice] = useState('');
@@ -49,11 +50,12 @@ function AdminPanel({ socket, players, teams, currentPlayer }) {
         isAdmin: true,
         playerId: currentPlayer.id,
         teamId: parseInt(selectedTeamId),
-        salePrice: parseInt(salePrice)
+        salePrice: parseFloat(salePrice)
       },
       (response) => {
         setLoading(false);
         if (response.success) {
+          playSoldSound();
           setMessage(`✅ ${currentPlayer.name} sold successfully!`);
           setMessageType('success');
           setSalePrice('');
@@ -143,15 +145,15 @@ function AdminPanel({ socket, players, teams, currentPlayer }) {
         <form onSubmit={handleSellPlayer}>
           <div className="form-grid">
             <div className="form-group">
-              <label>Sale Price (₹ CR)</label>
+              <label>Sale Price (₹ CR or Lakh)</label>
               <input
                 type="number"
                 value={salePrice}
                 onChange={(e) => setSalePrice(e.target.value)}
-                placeholder="Enter sale price"
+                placeholder="e.g., 5 CR or 0.5 CR (50 Lakh)"
                 disabled={!currentPlayer}
                 min="0"
-                step="1"
+                step="0.1"
               />
             </div>
 

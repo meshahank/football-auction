@@ -5,6 +5,7 @@
     "position": "CB",
     "basePrice": 70,
     "rating": 111,
+    "card": "Iconic",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/arshad.png"
@@ -15,7 +16,8 @@
     "position": "CF",
     "basePrice": 70,
     "rating": 110,
-    "status": "available",
+    "card": "Bigtime",
+    "status": "unsold",
     "teamId": null,
     "imagePath": "/players/jalal.png"
   },
@@ -25,7 +27,8 @@
     "position": "CF",
     "basePrice": 60,
     "rating": 110,
-    "status": "available",
+    "card": "Bigtime",
+    "status": "in-auction",
     "teamId": null,
     "imagePath": "/players/hanan-b.png"
   },
@@ -35,7 +38,8 @@
     "position": "CF",
     "basePrice": 70,
     "rating": 109,
-    "status": "available",
+    "card": "Bigtime",
+    "status": "in-auction",
     "teamId": null,
     "imagePath": "/players/hasan.png"
   },
@@ -45,8 +49,9 @@
     "position": "CF",
     "basePrice": 70,
     "rating": 109,
-    "status": "available",
-    "teamId": null,
+    "card": "Bigtime",
+    "status": "sold",
+    "teamId": 8,
     "imagePath": "/players/yaseen.png"
   },
   {
@@ -55,7 +60,8 @@
     "position": "CF",
     "basePrice": 60,
     "rating": 109,
-    "status": "available",
+    "card": "Bigtime",
+    "status": "unsold",
     "teamId": null,
     "imagePath": "/players/arshad-2.png"
   },
@@ -65,8 +71,9 @@
     "position": "GK",
     "basePrice": 70,
     "rating": 108,
-    "status": "available",
-    "teamId": null,
+    "card": "Bigtime GK",
+    "status": "sold",
+    "teamId": 4,
     "imagePath": "/players/hanan.png"
   },
   {
@@ -75,6 +82,7 @@
     "position": "GK",
     "basePrice": 70,
     "rating": 108,
+    "card": "Bigtime GK",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/murshid.png"
@@ -85,8 +93,9 @@
     "position": "CB",
     "basePrice": 70,
     "rating": 108,
-    "status": "available",
-    "teamId": null,
+    "card": "Bigtime",
+    "status": "sold",
+    "teamId": 5,
     "imagePath": "/players/sahl.png"
   },
   {
@@ -95,8 +104,9 @@
     "position": "SS",
     "basePrice": 70,
     "rating": 107,
-    "status": "available",
-    "teamId": null,
+    "card": "Epic",
+    "status": "sold",
+    "teamId": 4,
     "imagePath": "/players/amaan.png"
   },
   {
@@ -105,8 +115,9 @@
     "position": "LWF",
     "basePrice": 70,
     "rating": 107,
-    "status": "available",
-    "teamId": null,
+    "card": "Epic",
+    "status": "sold",
+    "teamId": 8,
     "imagePath": "/players/nabhan.png"
   },
   {
@@ -115,6 +126,7 @@
     "position": "CB",
     "basePrice": 70,
     "rating": 106,
+    "card": "Epic",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/shaheer.png"
@@ -125,8 +137,9 @@
     "position": "SS",
     "basePrice": 70,
     "rating": 106,
-    "status": "available",
-    "teamId": null,
+    "card": "Epic",
+    "status": "sold",
+    "teamId": 4,
     "imagePath": "/players/shameem.png"
   },
   {
@@ -135,8 +148,9 @@
     "position": "LB",
     "basePrice": 70,
     "rating": 105,
-    "status": "available",
-    "teamId": null,
+    "card": "Epic",
+    "status": "sold",
+    "teamId": 1,
     "imagePath": "/players/jinan.png"
   },
   {
@@ -145,6 +159,7 @@
     "position": "AMF",
     "basePrice": 70,
     "rating": 105,
+    "card": "Epic",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/nihad.png"
@@ -155,8 +170,9 @@
     "position": "RB",
     "basePrice": 70,
     "rating": 105,
-    "status": "available",
-    "teamId": null,
+    "card": "Epic",
+    "status": "sold",
+    "teamId": 3,
     "imagePath": "/players/ziyad.png"
   },
   {
@@ -165,6 +181,7 @@
     "position": "AMF",
     "basePrice": 60,
     "rating": 105,
+    "card": "Epic",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/najad.png"
@@ -175,6 +192,7 @@
     "position": "SS",
     "basePrice": 70,
     "rating": 104,
+    "card": "Epic",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/irfan.png"
@@ -185,8 +203,9 @@
     "position": "GK",
     "basePrice": 70,
     "rating": 104,
-    "status": "available",
-    "teamId": null,
+    "card": "Epic",
+    "status": "sold",
+    "teamId": 1,
     "imagePath": "/players/shammas.png"
   },
   {
@@ -195,7 +214,8 @@
     "position": "AMF",
     "basePrice": 70,
     "rating": 104,
-    "status": "available",
+    "card": "Epic",
+    "status": "in-auction",
     "teamId": null,
     "imagePath": "/players/ubaid.png"
   },
@@ -205,6 +225,7 @@
     "position": "RB",
     "basePrice": 70,
     "rating": 104,
+    "card": "Epic",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/uvais.png"
@@ -215,6 +236,7 @@
     "position": "LB",
     "basePrice": 60,
     "rating": 104,
+    "card": "Epic",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/thameem.png"
@@ -225,6 +247,7 @@
     "position": "CF",
     "basePrice": 60,
     "rating": 103,
+    "card": "Highlight",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/adil-kt.png"
@@ -235,8 +258,9 @@
     "position": "AMF",
     "basePrice": 60,
     "rating": 103,
-    "status": "available",
-    "teamId": null,
+    "card": "Highlight",
+    "status": "sold",
+    "teamId": 4,
     "imagePath": "/players/anwar.png"
   },
   {
@@ -245,8 +269,9 @@
     "position": "CF",
     "basePrice": 60,
     "rating": 103,
-    "status": "available",
-    "teamId": null,
+    "card": "Highlight",
+    "status": "sold",
+    "teamId": 4,
     "imagePath": "/players/salih.png"
   },
   {
@@ -255,6 +280,7 @@
     "position": "SS",
     "basePrice": 60,
     "rating": 103,
+    "card": "Highlight",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/shoubar.png"
@@ -265,6 +291,7 @@
     "position": "GK",
     "basePrice": 60,
     "rating": 102,
+    "card": "Highlight",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/ashmil.png"
@@ -275,7 +302,8 @@
     "position": "GK",
     "basePrice": 60,
     "rating": 102,
-    "status": "available",
+    "card": "Highlight",
+    "status": "unsold",
     "teamId": null,
     "imagePath": "/players/nihal.png"
   },
@@ -285,8 +313,9 @@
     "position": "SS",
     "basePrice": 60,
     "rating": 102,
-    "status": "available",
-    "teamId": null,
+    "card": "Highlight",
+    "status": "sold",
+    "teamId": 2,
     "imagePath": "/players/salim.png"
   },
   {
@@ -295,6 +324,7 @@
     "position": "AMF",
     "basePrice": 60,
     "rating": 101,
+    "card": "Highlight",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/adil.png"
@@ -305,8 +335,9 @@
     "position": "RB",
     "basePrice": 60,
     "rating": 101,
-    "status": "available",
-    "teamId": null,
+    "card": "Highlight",
+    "status": "sold",
+    "teamId": 5,
     "imagePath": "/players/rifqathulla.png"
   },
   {
@@ -315,6 +346,7 @@
     "position": "GK",
     "basePrice": 60,
     "rating": 101,
+    "card": "Highlight",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/shammas-2.png"
@@ -325,8 +357,9 @@
     "position": "CB",
     "basePrice": 60,
     "rating": 100,
-    "status": "available",
-    "teamId": null,
+    "card": "Highlight",
+    "status": "sold",
+    "teamId": 3,
     "imagePath": "/players/afeef.png"
   },
   {
@@ -335,8 +368,9 @@
     "position": "CB",
     "basePrice": 60,
     "rating": 100,
-    "status": "available",
-    "teamId": null,
+    "card": "Highlight",
+    "status": "sold",
+    "teamId": 1,
     "imagePath": "/players/majid.png"
   },
   {
@@ -345,6 +379,7 @@
     "position": "SS",
     "basePrice": 50,
     "rating": 100,
+    "card": "Highlight",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/nasif.png"
@@ -355,6 +390,7 @@
     "position": "CF",
     "basePrice": 50,
     "rating": 100,
+    "card": "Highlight",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/nabeel.png"
@@ -365,6 +401,7 @@
     "position": "CB",
     "basePrice": 50,
     "rating": 100,
+    "card": "Highlight",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/abdullah.png"
@@ -375,8 +412,9 @@
     "position": "CF",
     "basePrice": 50,
     "rating": 98,
-    "status": "available",
-    "teamId": null,
+    "card": "Silver",
+    "status": "sold",
+    "teamId": 1,
     "imagePath": "/players/shamil.png"
   },
   {
@@ -385,6 +423,7 @@
     "position": "CF",
     "basePrice": 50,
     "rating": 98,
+    "card": "Silver",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/amish.png"
@@ -395,8 +434,9 @@
     "position": "AMF",
     "basePrice": 50,
     "rating": 98,
-    "status": "available",
-    "teamId": null,
+    "card": "Silver",
+    "status": "sold",
+    "teamId": 4,
     "imagePath": "/players/abshaar.png"
   },
   {
@@ -405,6 +445,7 @@
     "position": "CF",
     "basePrice": 40,
     "rating": 97,
+    "card": "Silver",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/hanoon.png"
@@ -415,8 +456,9 @@
     "position": "CB",
     "basePrice": 40,
     "rating": 97,
-    "status": "available",
-    "teamId": null,
+    "card": "Silver",
+    "status": "sold",
+    "teamId": 3,
     "imagePath": "/players/nafrin.png"
   },
   {
@@ -425,8 +467,9 @@
     "position": "CF",
     "basePrice": 40,
     "rating": 97,
-    "status": "available",
-    "teamId": null,
+    "card": "Silver",
+    "status": "sold",
+    "teamId": 4,
     "imagePath": "/players/sajid.png"
   },
   {
@@ -435,6 +478,7 @@
     "position": "CF",
     "basePrice": 40,
     "rating": 96,
+    "card": "Silver",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/shamveel.png"
@@ -445,6 +489,7 @@
     "position": "CB",
     "basePrice": 50,
     "rating": 96,
+    "card": "Silver",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/nihal-2.png"
@@ -455,8 +500,9 @@
     "position": "CF",
     "basePrice": 50,
     "rating": 96,
-    "status": "available",
-    "teamId": null,
+    "card": "Silver",
+    "status": "sold",
+    "teamId": 2,
     "imagePath": "/players/shafin.png"
   },
   {
@@ -465,6 +511,7 @@
     "position": "AMF",
     "basePrice": 50,
     "rating": 96,
+    "card": "Silver",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/aflah.png"
@@ -475,8 +522,9 @@
     "position": "CB",
     "basePrice": 50,
     "rating": 96,
-    "status": "available",
-    "teamId": null,
+    "card": "Silver",
+    "status": "sold",
+    "teamId": 2,
     "imagePath": "/players/ameen.png"
   },
   {
@@ -485,6 +533,7 @@
     "position": "GK",
     "basePrice": 50,
     "rating": 96,
+    "card": "Silver",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/adin.png"
@@ -495,8 +544,9 @@
     "position": "CB",
     "basePrice": 50,
     "rating": 96,
-    "status": "available",
-    "teamId": null,
+    "card": "Silver",
+    "status": "sold",
+    "teamId": 6,
     "imagePath": "/players/ashmil-2.png"
   },
   {
@@ -505,6 +555,7 @@
     "position": "GK",
     "basePrice": 40,
     "rating": 95,
+    "card": "Bronze",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/nabeel-2.png"
@@ -515,7 +566,8 @@
     "position": "CMF",
     "basePrice": 40,
     "rating": 94,
-    "status": "available",
+    "card": "Bronze",
+    "status": "in-auction",
     "teamId": null,
     "imagePath": "/players/habis.png"
   },
@@ -525,7 +577,8 @@
     "position": "CF",
     "basePrice": 40,
     "rating": 94,
-    "status": "available",
+    "card": "Bronze",
+    "status": "unsold",
     "teamId": null,
     "imagePath": "/players/shabeeh.png"
   },
@@ -535,6 +588,7 @@
     "position": "CB",
     "basePrice": 40,
     "rating": 94,
+    "card": "Bronze",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/siraj.png"
@@ -545,8 +599,9 @@
     "position": "CMF",
     "basePrice": 40,
     "rating": 93,
-    "status": "available",
-    "teamId": null,
+    "card": "Bronze",
+    "status": "sold",
+    "teamId": 4,
     "imagePath": "/players/jalal-2.png"
   },
   {
@@ -555,6 +610,7 @@
     "position": "CB",
     "basePrice": 40,
     "rating": 93,
+    "card": "Bronze",
     "status": "available",
     "teamId": null,
     "imagePath": "/players/minhaj.png"
